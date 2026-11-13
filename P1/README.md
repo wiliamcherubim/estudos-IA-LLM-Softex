@@ -13,6 +13,8 @@ Análise técnica para avaliar onde, como e sob quais condições uma instituiç
 
 ## Progresso
 
+## Progresso
+
 - [x] **Nível Básico (`p1-basico`)**: Decomposição do problema, análise de 3 funcionalidades e primeiro prompt protótipo.
-- [ ] **Nível Intermediário (`p1-intermediario`)**: Evolução de prompts, critérios de avaliação e testes variados.
+- [x] **Nível Intermediário (`p1-intermediario`)**: Evolução de prompts, critérios de avaliação e testes variados.
 - [ ] **Nível Avançado (`p1-avancado`)**: Riscos éticos/LGPD, mitigações, recomendação final e vídeo.
