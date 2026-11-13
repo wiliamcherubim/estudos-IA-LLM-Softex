@@ -82,8 +82,11 @@ Mensagem do estudante:
 
 ### Resultados dos Testes Exploratórios (3 Casos Fictícios)
 
-| Teste  | Mensagem Fictícia (Entrada)                                                                | Resultado Esperado         | Resultado Obtido                   | Observação                                            |
-| :----- | :----------------------------------------------------------------------------------------- | :------------------------- | :--------------------------------- | :---------------------------------------------------- |
-| **01** | _"Olá, paguei o boleto ontem mas ainda consta em aberto no portal. Podem verificar?"_      | Pagamentos                 | _(Cole aqui a resposta do Gemini)_ | _(Ex: Acertou a categoria sem adicionar texto extra)_ |
-| **02** | _"Não consigo entrar na plataforma para ver a aula de hoje, diz que minha senha expirou."_ | Acesso ao Ambiente Virtual | _(Cole aqui a resposta do Gemini)_ | _(Ex: Identificou corretamente o problema técnico)_   |
-| **03** | _"Preciso do meu histórico escolar assinado para entregar no meu estágio até sexta."_      | Documentos                 | _(Cole aqui a resposta do Gemini)_ | _(Ex: Classificou corretamente a demanda documental)_ |
+| Teste | Mensagem Fictícia (Entrada) | Resultado Esperado | Resultado Obtido  
+| ### Resultados dos Testes Exploratórios (3 Casos Fictícios)
+
+| Teste  | Mensagem Fictícia (Entrada)                                                                | Resultado Esperado         | Resultado Obtido           | Observação                                                              |
+| :----- | :----------------------------------------------------------------------------------------- | :------------------------- | :------------------------- | :---------------------------------------------------------------------- |
+| **01** | _"Olá, paguei o boleto ontem mas ainda consta em aberto no portal. Podem verificar?"_      | Pagamentos                 | Pagamentos                 | Acertou a categoria e respeitou o formato sem texto extra.              |
+| **02** | _"Não consigo entrar na plataforma para ver a aula de hoje, diz que minha senha expirou."_ | Acesso ao Ambiente Virtual | Acesso ao Ambiente Virtual | Identificou corretamente o problema técnico sem precisar da sigla AVA.  |
+| **03** | _"Preciso do meu histórico escolar assinado para entregar no meu estágio até sexta."_      | Documentos                 | Documentos                 | Classificou corretamente a demanda documental sem inventar explicações. |
