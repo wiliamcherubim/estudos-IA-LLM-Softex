@@ -1,0 +1,89 @@
+# Memorando Técnico — Projeto P1: Análise de Viabilidade de IA
+
+**Autor:** Wiliam Cherubim  
+**Curso:** IA LLM — Softex Campinas  
+**Etapa Atual:** Nível Básico (`p1-basico`)
+
+---
+
+## 1. Análise Inicial das Funcionalidades (Nível Básico)
+
+### 1.1. Classificar mensagens por assunto (Candidata ao uso de LLM)
+
+- **Natureza da tarefa:** Envolve principalmente **interpretação de linguagem** natural para identificar a intenção do estudante.
+- **Entrada:** Texto livre da mensagem enviada pelo estudante no canal de atendimento.
+- **Resultado esperado:** Uma categoria padronizada correspondente ao tema principal da solicitação.
+- **Um LLM é adequado para essa tarefa?** Sim. Modelos de linguagem compreendem bem contexto, sinônimos e textos informais, superando buscas simples por palavras-chave.
+- **Que erros o modelo poderia cometer?** Classificar incorretamente mensagens ambíguas, escolher apenas um tema quando há dois assuntos juntos ou inventar categorias fora da lista permitida.
+- **Qual seria o impacto desses erros?** Baixo a moderado. O principal impacto é o atraso no atendimento por encaminhamento ao setor errado, sem perda financeira ou acadêmica direta.
+- **Existe alternativa mais simples?** Sim, um formulário de contato com menu suspenso (_dropdown_), porém os estudantes frequentemente selecionam opções erradas por dúvida ou pressa.
+- **Seria necessária revisão humana?** Apenas nos casos em que a mensagem apresentar ambiguidade ou múltiplos assuntos simultâneos.
+
+---
+
+### 1.2. Encaminhar a mensagem ao setor responsável (Solução mais simples sem IA)
+
+- **Natureza da tarefa:** Envolve exclusivamente **aplicação de regra** lógica determinística.
+- **Entrada:** A categoria do assunto já identificada (ex: _Pagamentos_, _Matrícula_, _Acesso ao Ambiente Virtual_).
+- **Resultado esperado:** Roteamento automático do chamado para a fila do departamento correspondente (ex: Financeiro, Secretaria ou Suporte Técnico).
+- **Um LLM é adequado para essa tarefa?** Não. Usar um modelo de linguagem para mapear uma categoria fixa a um setor gera custo desnecessário, maior latência e risco de variação na resposta.
+- **Que erros o modelo poderia cometer?** Se usado nessa etapa, poderia alucinar o nome de um setor inexistente ou alterar o padrão de roteamento sem motivo.
+- **Qual seria o impacto desses erros?** Extravio de solicitações e perda de rastreabilidade no fluxo de atendimento.
+- **Existe alternativa mais simples?** Sim. Regras fixas condicionais (`SE categoria == "Pagamentos" ENTÃO encaminhar para "Setor Financeiro"`), que são gratuitas, instantâneas e 100% previsíveis.
+- **Seria necessária revisão humana?** Não para o roteamento padrão, apenas em casos de exceção marcados como "Outros".
+
+---
+
+### 1.3. Apoiar decisões sobre revisão de nota ou benefício financeiro (Alto impacto)
+
+- **Natureza da tarefa:** Envolve **decisão** crítica, consulta a normas institucionais e avaliação de mérito.
+- **Entrada:** Pedido do estudante acompanhado de justificativas, histórico escolar, atestados ou dados financeiros.
+- **Resultado esperado:** Parecer deferindo ou indeferindo uma alteração de nota, desconto ou bolsa de estudos.
+- **Um LLM é adequado para essa tarefa?** Não. Modelos de linguagem geram texto com base em probabilidade estatística e não possuem capacidade jurídica, ética ou institucional para julgar direitos de estudantes.
+- **Que erros o modelo poderia cometer?** Inventar regras acadêmicas (alucinação), aplicar tratamentos desiguais (viés) ou aceitar argumentos persuasivos sem base documental.
+- **Qual seria o impacto desses erros?** Alto e crítico. Pode causar prejuízo financeiro à instituição, injustiça acadêmica ao aluno e violações legais ou de conformidade.
+- **Existe alternativa mais simples?** Não há automação recomendada para a decisão final; o fluxo deve seguir por análise documental humana baseada no regimento da instituição.
+- **Seria necessária revisão humana?** Sim, **obrigatória e integral**. A decisão final deve ser tomada exclusivamente por um coordenador, professor ou analista responsável.
+
+---
+
+## 2. Primeiro Prompt Protótipo e Testes Exploratórios
+
+### Prompt V1 — Classificação de Assunto
+
+- **Objetivo:** Classificar a mensagem do aluno em uma única categoria oficial da instituição.
+- **Estrutura:**
+
+```text
+[CONTEXTO]
+Você é um assistente de triagem de atendimento de uma instituição de ensino digital. O departamento recebe milhares de mensagens mensais de estudantes sobre temas acadêmicos, financeiros e técnicos.
+
+[TAREFA]
+Analise a mensagem do estudante fornecida abaixo e classifique-a em exatamente UMA das seguintes categorias oficiais:
+- Matrícula
+- Documentos
+- Pagamentos
+- Calendário Acadêmico
+- Revisão de Notas
+- Acesso ao Ambiente Virtual
+- Solicitações Administrativas
+
+[INSTRUÇÕES]
+- Baseie sua decisão exclusivamente no conteúdo da mensagem.
+- Não tente responder à dúvida do aluno, apenas classifique o assunto.
+- Se a mensagem não se encaixar em nenhuma categoria acima, responda "Outros".
+
+[FORMATO ESPERADO]
+Responda apenas com o nome exato da categoria, sem explicações adicionais ou pontuação.
+
+Mensagem do estudante:
+"{mensagem_do_aluno}"
+```
+
+### Resultados dos Testes Exploratórios (3 Casos Fictícios)
+
+| Teste  | Mensagem Fictícia (Entrada)                                                                | Resultado Esperado         | Resultado Obtido                   | Observação                                            |
+| :----- | :----------------------------------------------------------------------------------------- | :------------------------- | :--------------------------------- | :---------------------------------------------------- |
+| **01** | _"Olá, paguei o boleto ontem mas ainda consta em aberto no portal. Podem verificar?"_      | Pagamentos                 | _(Cole aqui a resposta do Gemini)_ | _(Ex: Acertou a categoria sem adicionar texto extra)_ |
+| **02** | _"Não consigo entrar na plataforma para ver a aula de hoje, diz que minha senha expirou."_ | Acesso ao Ambiente Virtual | _(Cole aqui a resposta do Gemini)_ | _(Ex: Identificou corretamente o problema técnico)_   |
+| **03** | _"Preciso do meu histórico escolar assinado para entregar no meu estágio até sexta."_      | Documentos                 | _(Cole aqui a resposta do Gemini)_ | _(Ex: Classificou corretamente a demanda documental)_ |
