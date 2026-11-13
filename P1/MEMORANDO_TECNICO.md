@@ -2,7 +2,7 @@
 
 **Autor:** Wiliam Cherubim  
 **Curso:** IA LLM — Softex Campinas  
-**Etapa Atual:** Nível Intermediário (`p1-intermediario`)
+**Etapa Atual:** Nível Avançado (`p1-avancado`)`
 
 ---
 
@@ -194,3 +194,46 @@ Para validar o desempenho do **Prompt V3**, cada resposta gerada foi avaliada se
 - **Taxa de acerto:** 8 de 8 casos aprovados nos critérios estruturais e semânticos (100% de JSONs válidos).
 - **Ponto forte observado:** O modelo conseguiu diferenciar pedidos diretos (Casos 01 e 02) de situações que exigem intervenção humana, como revisão de nota (Caso 03) e mensagens com múltiplos temas misturados (Caso 04).
 - **Ponto de atenção (Melhoria futura):** No Caso 08 (_trancar o curso_), o modelo retornou `"confianca": "media"` mas manteve `"revisao_humana": false`. Em produção, recomenda-se ajustar a regra para acionar revisão humana sempre que a confiança for `"media"` ou `"baixa"`, evitando cancelamentos acidentais sem orientação.
+
+---
+
+## 4. Análise de Riscos, Conformidade e Recomendação Final (Nível Avançado)
+
+### 4.1. Matriz de Riscos Éticos, Operacionais e de Privacidade (LGPD)
+
+| Categoria de Risco                | Descrição do Risco no Cenário Escolar                                                                                              | Impacto      | Medida de Controle / Mitigação                                                                                                                               |
+| :-------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- | :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Privacidade e LGPD**            | Envio de dados pessoais sensíveis contidos nas mensagens (CPF, RA, histórico médico, dados financeiros) para APIs externas de LLM. | **Alto**     | Mascaramento automático (_anonimização_) de CPF, e-mail e telefone antes do envio à API; uso de contratos corporativos sem retenção de dados para treino.    |
+| **Alucinação / Informação Falsa** | O modelo inventar prazos de matrícula, valores de taxas ou regras acadêmicas não previstas no regimento.                           | **Alto**     | Restringir o LLM apenas à **triagem e classificação** (não gerar respostas diretas ao aluno sem revisão); bloquear respostas fora das categorias permitidas. |
+| **Viés e Decisões Injustas**      | Tratamento desigual em solicitações de revisão de notas, bolsas ou abono de faltas devido ao tom de escrita do aluno.              | **Crítico**  | Proibir o uso de IA para decisões acadêmicas ou financeiras; encaminhar 100% desses casos para análise humana documentada.                                   |
+| **Falha de Encaminhamento**       | Classificação incorreta em mensagens ambíguas, causando atraso no atendimento de demandas urgentes.                                | **Moderado** | Acionar `"revisao_humana": true` automaticamente sempre que a confiança for `media` ou `baixa`, ou quando houver `Múltiplos Assuntos`.                       |
+| **Prompt Injection**              | Estudantes mal-intencionados inserirem comandos na mensagem para tentar manipular a saída do sistema.                              | **Moderado** | Validação estrita do esquema JSON na aplicação (rejeitando saídas fora do padrão) e isolamento da entrada do usuário em delimitadores claros.                |
+
+---
+
+### 4.2. Recomendação Executiva por Funcionalidade
+
+Com base nos experimentos realizados e na análise de risco, recomenda-se uma **adoção híbrida e controlada**:
+
+1. **Classificação de Mensagens por Assunto — RECOMENDADO COM CONTROLES:**
+   - **Decisão:** Implantar o **Prompt V3** na triagem inicial.
+   - **Condição:** Atuar apenas como apoio ao roteamento, enviando para revisão humana sempre que `revisao_humana` for `true` ou a confiança não for `alta`.
+2. **Encaminhamento ao Setor Responsável — NÃO USAR LLM (USAR REGRAS FIXAS):**
+   - **Decisão:** Implementar via código determinístico (`IF/ELSE` ou tabela de roteamento no sistema de chamados) a partir do JSON gerado na etapa anterior.
+   - **Justificativa:** Custo zero, latência mínima e 100% de previsibilidade.
+3. **Decisões sobre Revisão de Notas ou Benefícios Financeiros — NÃO AUTOMATIZAR:**
+   - **Decisão:** Manter fluxo 100% humano baseado no regimento institucional.
+   - **Justificativa:** Risco jurídico, ético e financeiro inaceitável para modelos probabilísticos.
+
+---
+
+### 4.3. Proposta de Piloto Controlado
+
+Antes da adoção em escala, sugere-se um **piloto de 30 dias** operando em **modo sombra (_shadow mode_)** ou **assistido**:
+
+- **Escopo:** Aplicar o classificador V3 apenas em 20% do volume de mensagens recebidas no canal de atendimento, mantendo a triagem humana em paralelo para comparação.
+- **Métricas de Sucesso (KPIs):**
+  - Acurácia de classificação superior a **90%** na comparação com a triagem humana.
+  - Taxa de erro de JSON inválido igual a **0%**.
+  - Redução de pelo menos **30%** no tempo médio de primeira resposta nos setores Financeiro e Suporte Técnico.
+- **Critério de Parada (_Rollback_):** Suspender imediatamente o piloto caso ocorra vazamento de dados não anonimizados ou falha sistemática no encaminhamento de demandas urgentes.
