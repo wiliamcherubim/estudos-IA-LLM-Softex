@@ -1,0 +1,794 @@
+[
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "condicao": "SEM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não disponho de dados suficientes** no momento para confirmar o número exato de vagas para desenvolvedores de soluções e o valor mensal da bolsa. \n\nPara obter informações oficiais e detalhadas sobre vagas, perfis e valores, recomendo consultar diretamente o edital oficial do Processo Seletivo HBR 02/2025 ou os canais de comunicação oficiais do Centro Integrado de Inteligência Artificial (CIIA).",
+    "latencia_segundos": 1.017,
+    "tokens_in": 94,
+    "tokens_out": 118,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "condicao": "SEM_RAG",
+    "repeticao": 2,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não disponho de dados suficientes** no momento para confirmar o número exato de vagas e o valor mensal da bolsa para a função específica de \"desenvolvedores de soluções\". \n\nRecomendo a consulta ao edital oficial do Processo Seletivo HBR 02/2025 para obter informações precisas e atualizadas sobre vagas, remuneração/bolsas e requisitos.",
+    "latencia_segundos": 1.711,
+    "tokens_in": 94,
+    "tokens_out": 111,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "condicao": "SEM_RAG",
+    "repeticao": 3,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não disponho de dados suficientes** no momento para confirmar o número exato de vagas para desenvolvedores de soluções e o valor mensal da bolsa. \n\nRecomendo a consulta ao Edital oficial do Processo Seletivo HBR 02/2025 para obter essas informações precisas.",
+    "latencia_segundos": 1.263,
+    "tokens_in": 94,
+    "tokens_out": 91,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C02",
+    "tipo_caso": "combinada",
+    "condicao": "SEM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Não sou estudante de graduação nem pós-graduação. Posso me inscrever no processo seletivo HBR 02/2025?",
+    "gabarito_referencia": "Sim, em caráter de excepcionalidade, comprovando pelo menos 2 anos de atuação acadêmica ou profissional em áreas tecnológicas correlatas.",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que **não disponho de dados suficientes** na minha base de conhecimento para confirmar se candidatos que não são estudantes de graduação ou pós-graduação podem se inscrever. \n\nRecomendo que você consulte o edital oficial do Processo Seletivo HBR 02/2025 para verificar os requisitos detalhados de elegibilidade.",
+    "latencia_segundos": 0.901,
+    "tokens_in": 107,
+    "tokens_out": 101,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada_calculo",
+    "condicao": "SEM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que **não disponho dos dados oficiais exatos** sobre a fórmula de cálculo da nota final para a classificação dos 100 primeiros candidatos e nem sobre os critérios de desempate específicos previstos no edital deste processo seletivo. \n\nPara obter essa informação oficial com precisão, recomendo consultar diretamente o **Edital do Processo Seletivo HBR 02/2025** ou os canais de atendimento oficiais do Centro Integrado de Inteligência Artificial (CIIA).",
+    "latencia_segundos": 1.727,
+    "tokens_in": 100,
+    "tokens_out": 133,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada_calculo",
+    "condicao": "SEM_RAG",
+    "repeticao": 2,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não dispongo dos dados oficiais exatos** sobre a fórmula de cálculo da nota final para a classificação dos 100 primeiros candidatos e nem sobre os critérios de desempate específicos previstos no edital. \n\nPara obter essa informação oficial com precisão, consulte diretamente o Edital do Processo Seletivo HBR 02/2025 ou entre em contato com a organização responsável pelo CIIA. Não invento regras, valores ou datas.",
+    "latencia_segundos": 0.95,
+    "tokens_in": 100,
+    "tokens_out": 124,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada_calculo",
+    "condicao": "SEM_RAG",
+    "repeticao": 3,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que **não disponho dos dados oficiais detalhados** sobre a fórmula exata de cálculo da nota final para a classificação dos 100 primeiros candidatos e nem sobre os critérios específicos de desempate previstos para este edital. \n\nPara obter essa informação com exatidão, recomendo a consulta direta ao edital oficial do Processo Seletivo HBR 02/2025 ou aos canais de atendimento oficiais do Centro Integrado de Inteligência Artificial (CIIA). Não invento regras, valores ou datas.",
+    "latencia_segundos": 1.478,
+    "tokens_in": 100,
+    "tokens_out": 141,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C05",
+    "tipo_caso": "direta_cronograma",
+    "condicao": "SEM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Qual é o período de inscrições e a data da Prova de Seleção no Processo Seletivo HBR 02/2025?",
+    "gabarito_referencia": "Inscrições: 04/04/25 a 13/04/25. Prova de Seleção: 10/05/25.",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (Centro Integrado de Inteligência Artificial - CIIA), declaro explicitamente que **não possuo dados suficientes** no momento sobre o período exato de inscrições e a data da Prova de Seleção. Recomendo consultar o edital oficial ou os canais de comunicação oficiais do CIIA/HBR para obter essas informações atualizadas.",
+    "latencia_segundos": 0.936,
+    "tokens_in": 107,
+    "tokens_out": 92,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Não inventou dados, mas foi incapaz de responder por falta de acesso ao edital.",
+    "nota_qualidade_0_a_3": 1
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "condicao": "SEM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (deve recusar e declarar falta de base documental).",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo dados suficientes no momento sobre a exigência específica de certificados de proficiência em inglês (como TOEFL ou IELTS) para a assinatura do termo de outorga e assumir a bolsa. \n\nRecomendo a leitura atenta do edital oficial completo do Processo Seletivo HBR 02/2025 ou o contato direto com a coordenação do Centro Integrado de Inteligência Artificial (CIIA) para confirmar essa exigência. Não invento regras, valores ou datas.",
+    "latencia_segundos": 1.496,
+    "tokens_in": 100,
+    "tokens_out": 133,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Recusa adequada por ausência de dados, mas sem respaldo documental.",
+    "nota_qualidade_0_a_3": 2
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "condicao": "SEM_RAG",
+    "repeticao": 2,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (deve recusar e declarar falta de base documental).",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo dados suficientes no momento sobre a exigência específica de certificados de proficiência em inglês (como TOEFL ou IELTS) para a assinatura da bolsa. \n\nRecomendo verificar diretamente o edital oficial do Processo Seletivo HBR 02/2025 ou entrar em contato com a coordenação do Centro Integrado de Inteligência Artificial (CIIA) para confirmar essa informação. Não invento regras, valores ou datas.",
+    "latencia_segundos": 1.478,
+    "tokens_in": 100,
+    "tokens_out": 120,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Recusa adequada por ausência de dados, mas sem respaldo documental.",
+    "nota_qualidade_0_a_3": 2
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "condicao": "SEM_RAG",
+    "repeticao": 3,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (deve recusar e declarar falta de base documental).",
+    "trechos_recuperados": [],
+    "fontes_apresentadas": [],
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não disponho de dados suficientes** no momento sobre a exigência específica de certificado de proficiência em inglês (como TOEFL ou IELTS) para a assinatura da bolsa. \n\nRecomendo a consulta ao edital oficial do Processo Seletivo HBR 02/2025 ou o contato direto com a coordenação do Centro Integrado de Inteligência Artificial (CIIA) para confirmar essa exigência. Não invento regras, valores ou datas.",
+    "latencia_segundos": 0.976,
+    "tokens_in": 100,
+    "tokens_out": 124,
+    "avaliacao_recuperacao": "Não aplicável (execução sem RAG).",
+    "avaliacao_uso_contexto": "Recusa adequada por ausência de dados, mas sem respaldo documental.",
+    "nota_qualidade_0_a_3": 2
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "condicao": "COM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc2_vagas_e_bolsas.md::S2",
+        "arquivo": "doc2_vagas_e_bolsas.md",
+        "secao": "5. Bolsas de Pesquisa e Desenvolvimento Tecnológico",
+        "similaridade": 0.7506,
+        "texto": "# 5. Bolsas de Pesquisa e Desenvolvimento Tecnológico\n5. BOLSAS DE PESQUISA E DESENVOLVIMENTO TECNOLÓGICO \n \n5.1. Para os monitores em trilhas de capacitação serão oferecidas bolsas no \nvalor de R$ 1.520,00 mensais, por 20 horas semanais de dedicação. \n5.2. Para os desenvolvedores de soluções serão oferecidas bolsas no valor \nde R$ 2.800,00 mensais, por 20 horas semanais de dedicação."
+      },
+      {
+        "chunk_id": "doc2_vagas_e_bolsas.md::S1",
+        "arquivo": "doc2_vagas_e_bolsas.md",
+        "secao": "4. Quantidade e Perfil das Vagas",
+        "similaridade": 0.7335,
+        "texto": "# 4. Quantidade e Perfil das Vagas\n4. QUANTIDADE E PERFIL DAS VAGAS \n \n4.1. Este Processo Seletivo atende ao preenchimento das seguintes vagas: \n4.1.1. 20 vagas para desenvolvedores de soluções voltadas às \ndemandas do Governo do Distrito Federal (GDF); \n4.1.2. 10 vagas para monitores de alunos em trilhas de capacitação. \n                                             \n \n4.2. Os classificados para ocupar as vagas especificadas no item 4.1 \ndesempenharão as seguintes funções: \n4.2.1. Desenvolvedores de soluções: \n4.2.1.1. Apoio na Codificação e Implementação - Auxiliar os \npesquisadores seniores na tradução de algoritmos e modelos \nde IA para código funcional, implementando componentes \nespecíficos sob supervisão direta e realizando testes de \nunidade para garantir a qualidade do código produzido. \n4.2.1.2. Suporte à Integração de Dados - Colaborar na criação de \npipelines de dados, auxiliando na extração, transformação e \ncarregamento (ETL) de dados governamentais para uso nos \nmodelos de IA seguindo os protocolos de segurança e \nprivacidade estabelecidos pelos pesquisadores seniores. \n4.2.1.3. Desenvolvimento de Interfaces e Visualizações - \nImplementar, sob orientação, as interfaces de usuário e \ndashboards de visualização que permitam aos servidores \npúblicos interagirem com as soluções de IA de forma intuitiva, \nseguindo os protótipos e especificações definidos pela equipe \nprincipal. \n4.2.1.4. Documentação e Testes - Elaborar documentação técnica \ndetalhada do código desenvolvido, participar de ciclos de teste \nsistemáticos para identificação de bugs, e preparar materiais \nde suporte que facilitem a transferência de conhecimento para \nas equipes técnicas dos órgãos governamentais. \n4.2.2. Monitores em trilhas de capacitação: \n4.2.2.1. Monitoria em Capacitações Técnicas: Acompanhamento e \nsuporte aos participantes em cursos online oferecidos pelos \nparceiros, especialmente Google, realizando atividades de \nengajamento, esclarecimento de dúvidas, mediação de fóruns \nde discussão e verificação do progresso dos alunos, com \ngeração de relatórios periódicos sobre desempenho e \nparticipação. \n4.2.2.2. Apoio à Trilha de Desafios e Competições: Participação na \norganização e execução de desafios, incluindo curadoria e \npreparação de datasets, validação de mecânicas de \ncompetição, documentação de processos, e suporte aos \nparticipantes durante as etapas dos desafios, contribuindo \npara a qualidade e relevância das competições promovidas \npelo CIIA. \n4.2.2.3. Desenvolvimento de Projetos-Piloto: Colaboração em \nequipes multidisciplinares para prototipação e implementação \nde soluções iniciais de IA em diversas áreas de aplicação, \nenvolvendo levantamento de requisitos, desenvolvimento de \nprovas de conceito, testes de usabilidade e documentação \ntécnica das soluções implementadas. \n4.2.2.4. Pesquisa Aplicada e Integração Multidisciplinar: \nRealização de estudos exploratórios sobre aplicações de IA em \ncontextos específicos, produção de relatórios técnicos, \nparticipação em grupos de discussão sobre aspectos éticos e \nsociais da tecnologia, e desenvolvimento de projetos que \n                                             \nintegrem conhecimentos de diferentes áreas acadêmicas com \nsoluções de inteligência artificial."
+      },
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S1",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "1. Processo Seletivo e Público-Alvo",
+        "similaridade": 0.7068,
+        "texto": "# 1. Processo Seletivo e Público-Alvo\n1. PROCESSO SELETIVO \n \n1.1. Este Processo Seletivo oferece vagas para estudantes e profissionais das áreas \nde tecnologia, com foco em técnicas e tecnologias de Inteligência Artificial (IA), \nque atuarão no Centro Integrado de Inteligência Artificial (CIIA) nas seguintes \nfunções: \n1.1.1. Desenvolvedores de soluções voltadas às demandas do Governo do \nDistrito Federal (GDF). \n1.1.2. Monitores de alunos em trilhas de capacitação. \n \n2. PÚBLICO-ALVO \n \n2.1. Este Processo Seletivo aplica-se a estudantes de instituições de ensino \nsuperior, no nível de graduação ou pós-graduação, ou a profissionais atuantes \nno mercado, nas áreas da Engenharia Elétrica, Engenharia da Computação, \nEngenharia de Software e afins."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc2_vagas_e_bolsas.md (5. Bolsas de Pesquisa e Desenvolvimento Tecnológico)",
+      "doc2_vagas_e_bolsas.md (4. Quantidade e Perfil das Vagas)",
+      "doc1_objetivo_e_elegibilidade.md (1. Processo Seletivo e Público-Alvo)"
+    ],
+    "resposta": "Com base nos trechos oficiais fornecidos:\n\n* **Quantidade de vagas:** Existem **20 vagas** para desenvolvedores de soluções voltadas às demandas do Governo do Distrito Federal (GDF). \n  *(Fonte: doc2_vagas_e_bolsas.md | Seção: 4. Quantidade e Perfil das Vagas)*\n\n* **Valor mensal da bolsa:** O valor oferecido para os desenvolvedores de soluções é de **R$ 2.800,00 mensais**.\n  *(Fonte: doc2_vagas_e_bolsas.md | Seção: 5. Bolsas de Pesquisa e Desenvolvimento Tecnológico)*",
+    "latencia_segundos": 2.26,
+    "tokens_in": 1500,
+    "tokens_out": 143,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc2_vagas_e_bolsas.md (similaridade 0.7506).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "condicao": "COM_RAG",
+    "repeticao": 2,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc2_vagas_e_bolsas.md::S2",
+        "arquivo": "doc2_vagas_e_bolsas.md",
+        "secao": "5. Bolsas de Pesquisa e Desenvolvimento Tecnológico",
+        "similaridade": 0.7506,
+        "texto": "# 5. Bolsas de Pesquisa e Desenvolvimento Tecnológico\n5. BOLSAS DE PESQUISA E DESENVOLVIMENTO TECNOLÓGICO \n \n5.1. Para os monitores em trilhas de capacitação serão oferecidas bolsas no \nvalor de R$ 1.520,00 mensais, por 20 horas semanais de dedicação. \n5.2. Para os desenvolvedores de soluções serão oferecidas bolsas no valor \nde R$ 2.800,00 mensais, por 20 horas semanais de dedicação."
+      },
+      {
+        "chunk_id": "doc2_vagas_e_bolsas.md::S1",
+        "arquivo": "doc2_vagas_e_bolsas.md",
+        "secao": "4. Quantidade e Perfil das Vagas",
+        "similaridade": 0.7335,
+        "texto": "# 4. Quantidade e Perfil das Vagas\n4. QUANTIDADE E PERFIL DAS VAGAS \n \n4.1. Este Processo Seletivo atende ao preenchimento das seguintes vagas: \n4.1.1. 20 vagas para desenvolvedores de soluções voltadas às \ndemandas do Governo do Distrito Federal (GDF); \n4.1.2. 10 vagas para monitores de alunos em trilhas de capacitação. \n                                             \n \n4.2. Os classificados para ocupar as vagas especificadas no item 4.1 \ndesempenharão as seguintes funções: \n4.2.1. Desenvolvedores de soluções: \n4.2.1.1. Apoio na Codificação e Implementação - Auxiliar os \npesquisadores seniores na tradução de algoritmos e modelos \nde IA para código funcional, implementando componentes \nespecíficos sob supervisão direta e realizando testes de \nunidade para garantir a qualidade do código produzido. \n4.2.1.2. Suporte à Integração de Dados - Colaborar na criação de \npipelines de dados, auxiliando na extração, transformação e \ncarregamento (ETL) de dados governamentais para uso nos \nmodelos de IA seguindo os protocolos de segurança e \nprivacidade estabelecidos pelos pesquisadores seniores. \n4.2.1.3. Desenvolvimento de Interfaces e Visualizações - \nImplementar, sob orientação, as interfaces de usuário e \ndashboards de visualização que permitam aos servidores \npúblicos interagirem com as soluções de IA de forma intuitiva, \nseguindo os protótipos e especificações definidos pela equipe \nprincipal. \n4.2.1.4. Documentação e Testes - Elaborar documentação técnica \ndetalhada do código desenvolvido, participar de ciclos de teste \nsistemáticos para identificação de bugs, e preparar materiais \nde suporte que facilitem a transferência de conhecimento para \nas equipes técnicas dos órgãos governamentais. \n4.2.2. Monitores em trilhas de capacitação: \n4.2.2.1. Monitoria em Capacitações Técnicas: Acompanhamento e \nsuporte aos participantes em cursos online oferecidos pelos \nparceiros, especialmente Google, realizando atividades de \nengajamento, esclarecimento de dúvidas, mediação de fóruns \nde discussão e verificação do progresso dos alunos, com \ngeração de relatórios periódicos sobre desempenho e \nparticipação. \n4.2.2.2. Apoio à Trilha de Desafios e Competições: Participação na \norganização e execução de desafios, incluindo curadoria e \npreparação de datasets, validação de mecânicas de \ncompetição, documentação de processos, e suporte aos \nparticipantes durante as etapas dos desafios, contribuindo \npara a qualidade e relevância das competições promovidas \npelo CIIA. \n4.2.2.3. Desenvolvimento de Projetos-Piloto: Colaboração em \nequipes multidisciplinares para prototipação e implementação \nde soluções iniciais de IA em diversas áreas de aplicação, \nenvolvendo levantamento de requisitos, desenvolvimento de \nprovas de conceito, testes de usabilidade e documentação \ntécnica das soluções implementadas. \n4.2.2.4. Pesquisa Aplicada e Integração Multidisciplinar: \nRealização de estudos exploratórios sobre aplicações de IA em \ncontextos específicos, produção de relatórios técnicos, \nparticipação em grupos de discussão sobre aspectos éticos e \nsociais da tecnologia, e desenvolvimento de projetos que \n                                             \nintegrem conhecimentos de diferentes áreas acadêmicas com \nsoluções de inteligência artificial."
+      },
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S1",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "1. Processo Seletivo e Público-Alvo",
+        "similaridade": 0.7068,
+        "texto": "# 1. Processo Seletivo e Público-Alvo\n1. PROCESSO SELETIVO \n \n1.1. Este Processo Seletivo oferece vagas para estudantes e profissionais das áreas \nde tecnologia, com foco em técnicas e tecnologias de Inteligência Artificial (IA), \nque atuarão no Centro Integrado de Inteligência Artificial (CIIA) nas seguintes \nfunções: \n1.1.1. Desenvolvedores de soluções voltadas às demandas do Governo do \nDistrito Federal (GDF). \n1.1.2. Monitores de alunos em trilhas de capacitação. \n \n2. PÚBLICO-ALVO \n \n2.1. Este Processo Seletivo aplica-se a estudantes de instituições de ensino \nsuperior, no nível de graduação ou pós-graduação, ou a profissionais atuantes \nno mercado, nas áreas da Engenharia Elétrica, Engenharia da Computação, \nEngenharia de Software e afins."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc2_vagas_e_bolsas.md (5. Bolsas de Pesquisa e Desenvolvimento Tecnológico)",
+      "doc2_vagas_e_bolsas.md (4. Quantidade e Perfil das Vagas)",
+      "doc1_objetivo_e_elegibilidade.md (1. Processo Seletivo e Público-Alvo)"
+    ],
+    "resposta": "Com base nos trechos oficiais fornecidos:\n\n* **Quantidade de vagas:** Existem **20 vagas** para desenvolvedores de soluções voltadas às demandas do Governo do Distrito Federal (GDF). *(Fonte: doc2_vagas_e_bolsas.md | Seção: 4. Quantidade e Perfil das Vagas)*\n* **Valor mensal da bolsa:** O valor oferecido é de **R$ 2.800,00 mensais**. *(Fonte: doc2_vagas_e_bolsas.md | Seção: 5. Bolsas de Pesquisa e Desenvolvimento Tecnológico)*",
+    "latencia_segundos": 1.08,
+    "tokens_in": 1500,
+    "tokens_out": 132,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc2_vagas_e_bolsas.md (similaridade 0.7506).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "condicao": "COM_RAG",
+    "repeticao": 3,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc2_vagas_e_bolsas.md::S2",
+        "arquivo": "doc2_vagas_e_bolsas.md",
+        "secao": "5. Bolsas de Pesquisa e Desenvolvimento Tecnológico",
+        "similaridade": 0.7506,
+        "texto": "# 5. Bolsas de Pesquisa e Desenvolvimento Tecnológico\n5. BOLSAS DE PESQUISA E DESENVOLVIMENTO TECNOLÓGICO \n \n5.1. Para os monitores em trilhas de capacitação serão oferecidas bolsas no \nvalor de R$ 1.520,00 mensais, por 20 horas semanais de dedicação. \n5.2. Para os desenvolvedores de soluções serão oferecidas bolsas no valor \nde R$ 2.800,00 mensais, por 20 horas semanais de dedicação."
+      },
+      {
+        "chunk_id": "doc2_vagas_e_bolsas.md::S1",
+        "arquivo": "doc2_vagas_e_bolsas.md",
+        "secao": "4. Quantidade e Perfil das Vagas",
+        "similaridade": 0.7335,
+        "texto": "# 4. Quantidade e Perfil das Vagas\n4. QUANTIDADE E PERFIL DAS VAGAS \n \n4.1. Este Processo Seletivo atende ao preenchimento das seguintes vagas: \n4.1.1. 20 vagas para desenvolvedores de soluções voltadas às \ndemandas do Governo do Distrito Federal (GDF); \n4.1.2. 10 vagas para monitores de alunos em trilhas de capacitação. \n                                             \n \n4.2. Os classificados para ocupar as vagas especificadas no item 4.1 \ndesempenharão as seguintes funções: \n4.2.1. Desenvolvedores de soluções: \n4.2.1.1. Apoio na Codificação e Implementação - Auxiliar os \npesquisadores seniores na tradução de algoritmos e modelos \nde IA para código funcional, implementando componentes \nespecíficos sob supervisão direta e realizando testes de \nunidade para garantir a qualidade do código produzido. \n4.2.1.2. Suporte à Integração de Dados - Colaborar na criação de \npipelines de dados, auxiliando na extração, transformação e \ncarregamento (ETL) de dados governamentais para uso nos \nmodelos de IA seguindo os protocolos de segurança e \nprivacidade estabelecidos pelos pesquisadores seniores. \n4.2.1.3. Desenvolvimento de Interfaces e Visualizações - \nImplementar, sob orientação, as interfaces de usuário e \ndashboards de visualização que permitam aos servidores \npúblicos interagirem com as soluções de IA de forma intuitiva, \nseguindo os protótipos e especificações definidos pela equipe \nprincipal. \n4.2.1.4. Documentação e Testes - Elaborar documentação técnica \ndetalhada do código desenvolvido, participar de ciclos de teste \nsistemáticos para identificação de bugs, e preparar materiais \nde suporte que facilitem a transferência de conhecimento para \nas equipes técnicas dos órgãos governamentais. \n4.2.2. Monitores em trilhas de capacitação: \n4.2.2.1. Monitoria em Capacitações Técnicas: Acompanhamento e \nsuporte aos participantes em cursos online oferecidos pelos \nparceiros, especialmente Google, realizando atividades de \nengajamento, esclarecimento de dúvidas, mediação de fóruns \nde discussão e verificação do progresso dos alunos, com \ngeração de relatórios periódicos sobre desempenho e \nparticipação. \n4.2.2.2. Apoio à Trilha de Desafios e Competições: Participação na \norganização e execução de desafios, incluindo curadoria e \npreparação de datasets, validação de mecânicas de \ncompetição, documentação de processos, e suporte aos \nparticipantes durante as etapas dos desafios, contribuindo \npara a qualidade e relevância das competições promovidas \npelo CIIA. \n4.2.2.3. Desenvolvimento de Projetos-Piloto: Colaboração em \nequipes multidisciplinares para prototipação e implementação \nde soluções iniciais de IA em diversas áreas de aplicação, \nenvolvendo levantamento de requisitos, desenvolvimento de \nprovas de conceito, testes de usabilidade e documentação \ntécnica das soluções implementadas. \n4.2.2.4. Pesquisa Aplicada e Integração Multidisciplinar: \nRealização de estudos exploratórios sobre aplicações de IA em \ncontextos específicos, produção de relatórios técnicos, \nparticipação em grupos de discussão sobre aspectos éticos e \nsociais da tecnologia, e desenvolvimento de projetos que \n                                             \nintegrem conhecimentos de diferentes áreas acadêmicas com \nsoluções de inteligência artificial."
+      },
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S1",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "1. Processo Seletivo e Público-Alvo",
+        "similaridade": 0.7068,
+        "texto": "# 1. Processo Seletivo e Público-Alvo\n1. PROCESSO SELETIVO \n \n1.1. Este Processo Seletivo oferece vagas para estudantes e profissionais das áreas \nde tecnologia, com foco em técnicas e tecnologias de Inteligência Artificial (IA), \nque atuarão no Centro Integrado de Inteligência Artificial (CIIA) nas seguintes \nfunções: \n1.1.1. Desenvolvedores de soluções voltadas às demandas do Governo do \nDistrito Federal (GDF). \n1.1.2. Monitores de alunos em trilhas de capacitação. \n \n2. PÚBLICO-ALVO \n \n2.1. Este Processo Seletivo aplica-se a estudantes de instituições de ensino \nsuperior, no nível de graduação ou pós-graduação, ou a profissionais atuantes \nno mercado, nas áreas da Engenharia Elétrica, Engenharia da Computação, \nEngenharia de Software e afins."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc2_vagas_e_bolsas.md (5. Bolsas de Pesquisa e Desenvolvimento Tecnológico)",
+      "doc2_vagas_e_bolsas.md (4. Quantidade e Perfil das Vagas)",
+      "doc1_objetivo_e_elegibilidade.md (1. Processo Seletivo e Público-Alvo)"
+    ],
+    "resposta": "Com base nos trechos oficiais fornecidos:\n\n- **Quantidade de vagas:** Existem 20 vagas para desenvolvedores de soluções voltadas às demandas do Governo do Distrito Federal (GDF). *(Fonte: doc2_vagas_e_bolsas.md | Seção: 4. Quantidade e Perfil das Vagas)*\n- **Valor mensal da bolsa:** O valor oferecido é de R$ 2.800,00 mensais. *(Fonte: doc2_vagas_e_bolsas.md | Seção: 5. Bolsas de Pesquisa e Desenvolvimento Tecnológico)*",
+    "latencia_segundos": 1.264,
+    "tokens_in": 1500,
+    "tokens_out": 130,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc2_vagas_e_bolsas.md (similaridade 0.7506).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C02",
+    "tipo_caso": "combinada",
+    "condicao": "COM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Não sou estudante de graduação nem pós-graduação. Posso me inscrever no processo seletivo HBR 02/2025?",
+    "gabarito_referencia": "Sim, em caráter de excepcionalidade, comprovando pelo menos 2 anos de atuação acadêmica ou profissional em áreas tecnológicas correlatas.",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S2",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "3. Condições para Inscrição",
+        "similaridade": 0.6573,
+        "texto": "# 3. Condições para Inscrição\n3. CONDIÇÕES PARA INSCRIÇÃO \n \n3.1. São condições necessárias, para a inscrição neste Processo Seletivo: \n3.1.1. Estar matriculado em instituição de ensino superior, em cursos de \ngraduação com pelo menos 50% da carga horária completa, ou estar \nmatriculado em curso de pós-graduação, mestrado ou doutorado; \n3.1.2. Comprovar, através de declaração, o compromisso de \ndisponibilidade de 20 horas semanais para atuar no desenvolvimento \nde projetos de IA, seja em monitoria, pesquisa ou no \ndesenvolvimento de aplicações; \n3.1.3. Candidatos que não atendam o requisito dos itens 3.1.1 e 3.1.2 \npoderão pleitear, à Comissão de Seleção, sua inscrição em caráter \nde excepcionalidade, pela comprovação de atuação acadêmica ou \nprofissional, por pelo menos dois anos, em áreas tecnológicas \ncorrelatas. \n3.2. É condição desejável, para inscrição neste Processo Seletivo, a \ncomprovação de residência em um raio de até 200 km de Brasília – DF."
+      },
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S1",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "1. Processo Seletivo e Público-Alvo",
+        "similaridade": 0.6473,
+        "texto": "# 1. Processo Seletivo e Público-Alvo\n1. PROCESSO SELETIVO \n \n1.1. Este Processo Seletivo oferece vagas para estudantes e profissionais das áreas \nde tecnologia, com foco em técnicas e tecnologias de Inteligência Artificial (IA), \nque atuarão no Centro Integrado de Inteligência Artificial (CIIA) nas seguintes \nfunções: \n1.1.1. Desenvolvedores de soluções voltadas às demandas do Governo do \nDistrito Federal (GDF). \n1.1.2. Monitores de alunos em trilhas de capacitação. \n \n2. PÚBLICO-ALVO \n \n2.1. Este Processo Seletivo aplica-se a estudantes de instituições de ensino \nsuperior, no nível de graduação ou pós-graduação, ou a profissionais atuantes \nno mercado, nas áreas da Engenharia Elétrica, Engenharia da Computação, \nEngenharia de Software e afins."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S2",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "9. Cronograma e Contato",
+        "similaridade": 0.6282,
+        "texto": "# 9. Cronograma e Contato\n9. DO CRONOGRAMA \n \n9.1. Este Processo Seletivo obedecerá ao seguinte cronograma: \nATIVIDADE DATA \nPublicação do Processo Seletivo 04/04/25 \nPeríodo de inscrições 04/04/25 a 13/04/25 \nPublicação da lista de candidatos homologados 15/04/25 \nDistribuição das licenças de uso para as trilhas 15/04/25 \nRealização das trilhas 16/04/25 a 06/05/25 \nComprovação das trilhas 07/05/25 a 11/05/25 \nProva de Seleção 10/05/25 \nPreenchimento do FIT Social 10/05/25 \nPublicação preliminar da lista dos candidatos classificados 15/05/25 \nPrazo para interposição de recurso 15/05/25 a 16/05/25 \nPublicação final da lista de candidatos selecionados 19/05/25 \n10. CONTATO \nO contato com a Comissão de Seleção deverá ocorrer exclusivamente pelo e-mail \nciia.inscricoes@hardware.org.br, a partir da publicação deste Processo Seletivo. \nOs candidatos homologados serão inseridos em um grupo da plataforma Discord, para \nreceberem as informações e o acompanhamento necessário após a homologação."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc1_objetivo_e_elegibilidade.md (3. Condições para Inscrição)",
+      "doc1_objetivo_e_elegibilidade.md (1. Processo Seletivo e Público-Alvo)",
+      "doc4_prova_cronograma_contato.md (9. Cronograma e Contato)"
+    ],
+    "resposta": "Sim, você pode pleitear sua inscrição. Candidatos que não atendem aos requisitos de matrícula em graduação (com pelo menos 50% da carga horária completa) ou pós-graduação, mestrado ou doutorado poderão solicitar à Comissão de Seleção a inscrição em caráter de excepcionalidade, desde que comprovem atuação acadêmica ou profissional por pelo menos dois anos em áreas tecnológicas correlatas.\n\nFonte: `doc1_objetivo_e_elegibilidade.md | Seção: 3. Condições para Inscrição`",
+    "latencia_segundos": 1.132,
+    "tokens_in": 1178,
+    "tokens_out": 114,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc1_objetivo_e_elegibilidade.md (similaridade 0.6573).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada_calculo",
+    "condicao": "COM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc3_classificacao_e_capacitacao.md::S1",
+        "arquivo": "doc3_classificacao_e_capacitacao.md",
+        "secao": "6. Preenchimento das Vagas e Critérios de Desempate",
+        "similaridade": 0.7427,
+        "texto": "# 6. Preenchimento das Vagas e Critérios de Desempate\n6. PREENCHIMENTO DAS VAGAS \n \n6.1. Os candidatos deverão comprovar a participação nas trilhas e módulos \nespecificados do Programa de Capacitação em Inteligência Artificial. \n6.2. Os candidatos serão classificados segundo os seguintes critérios: \n6.1.1. Desempenho na Prova de Seleção (PS), a ser aplicada ao final do \nprocesso seletivo, com pontuação entre 0,0 e 10,0. \n6.1.2. Desempenho no questionário de Fit Social (FS), a ser aplicada ao \nfinal do processo seletivo, com pontuação entre 0,0 e 10,0. \n6.1.3. Serão classificados 100 (cem) candidatos, que atenderem ao item \n6.1, segundo a seguinte ponderação: \nNOTA = (0,7 x PS) + (0,3 x FS) \n6.1.4. Entre os classificados no item 6.1.3 serão selecionados aqueles \nque ocuparão as vagas definidas para o programa, conforme \nanálise subjetiva realizada pela comissão de coordenação, dos \nseguintes quesitos: \n6.1.4.1. Avaliação da participação nas trilhas de capacitação \nGoogle/Coursera; \n6.1.4.2. Avaliação da participação nos debates na plataforma \nDiscord; \n6.1.4.3. Participação no desafio na plataforma Kaggle; \n6.1.4.4. Análise curricular quanto a aderência da experiência ao \nprograma. \n6.1.5. Em caso de empate, serão adotados os seguintes critérios de \ndesempate: \n6.1.5.1. Maior pontuação, na Prova de Seleção, em Programação \npara IA; \n6.1.5.2. Maior pontuação, na Prova de Seleção, em IA Generativa. \n6.1.6. Os candidatos classificados e não selecionados comporão lista de \nespera e poderão ser chamados, a critério da Comissão de \nSeleção, para suprir vagas adicionais demandadas por projetos \nfuturos."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S2",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "9. Cronograma e Contato",
+        "similaridade": 0.6393,
+        "texto": "# 9. Cronograma e Contato\n9. DO CRONOGRAMA \n \n9.1. Este Processo Seletivo obedecerá ao seguinte cronograma: \nATIVIDADE DATA \nPublicação do Processo Seletivo 04/04/25 \nPeríodo de inscrições 04/04/25 a 13/04/25 \nPublicação da lista de candidatos homologados 15/04/25 \nDistribuição das licenças de uso para as trilhas 15/04/25 \nRealização das trilhas 16/04/25 a 06/05/25 \nComprovação das trilhas 07/05/25 a 11/05/25 \nProva de Seleção 10/05/25 \nPreenchimento do FIT Social 10/05/25 \nPublicação preliminar da lista dos candidatos classificados 15/05/25 \nPrazo para interposição de recurso 15/05/25 a 16/05/25 \nPublicação final da lista de candidatos selecionados 19/05/25 \n10. CONTATO \nO contato com a Comissão de Seleção deverá ocorrer exclusivamente pelo e-mail \nciia.inscricoes@hardware.org.br, a partir da publicação deste Processo Seletivo. \nOs candidatos homologados serão inseridos em um grupo da plataforma Discord, para \nreceberem as informações e o acompanhamento necessário após a homologação."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S1",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "8. Prova de Seleção",
+        "similaridade": 0.6334,
+        "texto": "# 8. Prova de Seleção\n8. PROVA DE SELEÇÃO \n \n8.1. Ao final do Programa de Capacitação em Inteligência Artificial, os \ncandidatos participarão da Prova de Seleção, na modalidade \npresencial, em local a ser divulgado aos candidatos homologados. \n8.2. A Prova de Seleção constará de trinta questões organizadas da \nseguinte forma: \n8.2.0. Fundamentos Básicos: dez questões de 0,2 pontos cada. \n8.2.1. IA Generativa: dez questões de 0,3 pontos cada. \n8.2.2. Programação para IA: dez questões de 0,5 pontos cada. \n8.3. A participação do candidato no processo de seleção está \ncondicionada às seguintes condições mínimas de desempenho na \nProva de Seleção: \n8.3.1. Mínimo de 4 pontos na soma total da prova. \n8.3.2. Acerto de pelo menos 50% das questões em cada trilha listada \nno item 8.2."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc3_classificacao_e_capacitacao.md (6. Preenchimento das Vagas e Critérios de Desempate)",
+      "doc4_prova_cronograma_contato.md (9. Cronograma e Contato)",
+      "doc4_prova_cronograma_contato.md (8. Prova de Seleção)"
+    ],
+    "resposta": "Com base nos trechos oficiais fornecidos, a nota para a classificação dos 100 candidatos é calculada por meio da seguinte ponderação:\n\n$$\\text{NOTA} = (0,7 \\times \\text{PS}) + (0,3 \\times \\text{FS})$$\n\nOnde:\n* **PS** = Desempenho na Prova de Seleção (pontuação entre 0,0 e 10,0).\n* **FS** = Desempenho no questionário de Fit Social (pontuação entre 0,0 e 10,0).\n\nEm caso de empate, os critérios de desempate adotados são:\n1. Maior pontuação, na Prova de Seleção, em Programação para IA;\n2. Maior pontuação, na Prova de Seleção, em IA Generativa.\n\n**Fonte:** \n* `doc3_classificacao_e_capacitacao.md` | Seção: *6. Preenchimento das Vagas e Critérios de Desempate* (itens 6.1.3 e 6.1.5).",
+    "latencia_segundos": 1.282,
+    "tokens_in": 1447,
+    "tokens_out": 244,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc3_classificacao_e_capacitacao.md (similaridade 0.7427).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada_calculo",
+    "condicao": "COM_RAG",
+    "repeticao": 2,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc3_classificacao_e_capacitacao.md::S1",
+        "arquivo": "doc3_classificacao_e_capacitacao.md",
+        "secao": "6. Preenchimento das Vagas e Critérios de Desempate",
+        "similaridade": 0.7427,
+        "texto": "# 6. Preenchimento das Vagas e Critérios de Desempate\n6. PREENCHIMENTO DAS VAGAS \n \n6.1. Os candidatos deverão comprovar a participação nas trilhas e módulos \nespecificados do Programa de Capacitação em Inteligência Artificial. \n6.2. Os candidatos serão classificados segundo os seguintes critérios: \n6.1.1. Desempenho na Prova de Seleção (PS), a ser aplicada ao final do \nprocesso seletivo, com pontuação entre 0,0 e 10,0. \n6.1.2. Desempenho no questionário de Fit Social (FS), a ser aplicada ao \nfinal do processo seletivo, com pontuação entre 0,0 e 10,0. \n6.1.3. Serão classificados 100 (cem) candidatos, que atenderem ao item \n6.1, segundo a seguinte ponderação: \nNOTA = (0,7 x PS) + (0,3 x FS) \n6.1.4. Entre os classificados no item 6.1.3 serão selecionados aqueles \nque ocuparão as vagas definidas para o programa, conforme \nanálise subjetiva realizada pela comissão de coordenação, dos \nseguintes quesitos: \n6.1.4.1. Avaliação da participação nas trilhas de capacitação \nGoogle/Coursera; \n6.1.4.2. Avaliação da participação nos debates na plataforma \nDiscord; \n6.1.4.3. Participação no desafio na plataforma Kaggle; \n6.1.4.4. Análise curricular quanto a aderência da experiência ao \nprograma. \n6.1.5. Em caso de empate, serão adotados os seguintes critérios de \ndesempate: \n6.1.5.1. Maior pontuação, na Prova de Seleção, em Programação \npara IA; \n6.1.5.2. Maior pontuação, na Prova de Seleção, em IA Generativa. \n6.1.6. Os candidatos classificados e não selecionados comporão lista de \nespera e poderão ser chamados, a critério da Comissão de \nSeleção, para suprir vagas adicionais demandadas por projetos \nfuturos."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S2",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "9. Cronograma e Contato",
+        "similaridade": 0.6393,
+        "texto": "# 9. Cronograma e Contato\n9. DO CRONOGRAMA \n \n9.1. Este Processo Seletivo obedecerá ao seguinte cronograma: \nATIVIDADE DATA \nPublicação do Processo Seletivo 04/04/25 \nPeríodo de inscrições 04/04/25 a 13/04/25 \nPublicação da lista de candidatos homologados 15/04/25 \nDistribuição das licenças de uso para as trilhas 15/04/25 \nRealização das trilhas 16/04/25 a 06/05/25 \nComprovação das trilhas 07/05/25 a 11/05/25 \nProva de Seleção 10/05/25 \nPreenchimento do FIT Social 10/05/25 \nPublicação preliminar da lista dos candidatos classificados 15/05/25 \nPrazo para interposição de recurso 15/05/25 a 16/05/25 \nPublicação final da lista de candidatos selecionados 19/05/25 \n10. CONTATO \nO contato com a Comissão de Seleção deverá ocorrer exclusivamente pelo e-mail \nciia.inscricoes@hardware.org.br, a partir da publicação deste Processo Seletivo. \nOs candidatos homologados serão inseridos em um grupo da plataforma Discord, para \nreceberem as informações e o acompanhamento necessário após a homologação."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S1",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "8. Prova de Seleção",
+        "similaridade": 0.6334,
+        "texto": "# 8. Prova de Seleção\n8. PROVA DE SELEÇÃO \n \n8.1. Ao final do Programa de Capacitação em Inteligência Artificial, os \ncandidatos participarão da Prova de Seleção, na modalidade \npresencial, em local a ser divulgado aos candidatos homologados. \n8.2. A Prova de Seleção constará de trinta questões organizadas da \nseguinte forma: \n8.2.0. Fundamentos Básicos: dez questões de 0,2 pontos cada. \n8.2.1. IA Generativa: dez questões de 0,3 pontos cada. \n8.2.2. Programação para IA: dez questões de 0,5 pontos cada. \n8.3. A participação do candidato no processo de seleção está \ncondicionada às seguintes condições mínimas de desempenho na \nProva de Seleção: \n8.3.1. Mínimo de 4 pontos na soma total da prova. \n8.3.2. Acerto de pelo menos 50% das questões em cada trilha listada \nno item 8.2."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc3_classificacao_e_capacitacao.md (6. Preenchimento das Vagas e Critérios de Desempate)",
+      "doc4_prova_cronograma_contato.md (9. Cronograma e Contato)",
+      "doc4_prova_cronograma_contato.md (8. Prova de Seleção)"
+    ],
+    "resposta": "Com base nos trechos oficiais fornecidos, a nota para a classificação dos 100 candidatos é calculada por meio da seguinte ponderação:\n\n$$\\text{NOTA} = (0,7 \\times \\text{PS}) + (0,3 \\times \\text{FS})$$\n\nOnde:\n* **PS** = Desempenho na Prova de Seleção (pontuação entre 0,0 e 10,0).\n* **FS** = Desempenho no questionário de Fit Social (pontuação entre 0,0 e 10,0).\n\nEm caso de empate, os critérios de desempate adotados são:\n1. Maior pontuação, na Prova de Seleção, em Programação para IA;\n2. Maior pontuação, na Prova de Seleção, em IA Generativa.\n\n**Fonte:** \n* `doc3_classificacao_e_capacitacao.md` | Seção: *6. Preenchimento das Vagas e Critérios de Desempate* (Itens 6.1.1, 6.1.2, 6.1.3 e 6.1.5).",
+    "latencia_segundos": 2.998,
+    "tokens_in": 1447,
+    "tokens_out": 259,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc3_classificacao_e_capacitacao.md (similaridade 0.7427).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada_calculo",
+    "condicao": "COM_RAG",
+    "repeticao": 3,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc3_classificacao_e_capacitacao.md::S1",
+        "arquivo": "doc3_classificacao_e_capacitacao.md",
+        "secao": "6. Preenchimento das Vagas e Critérios de Desempate",
+        "similaridade": 0.7427,
+        "texto": "# 6. Preenchimento das Vagas e Critérios de Desempate\n6. PREENCHIMENTO DAS VAGAS \n \n6.1. Os candidatos deverão comprovar a participação nas trilhas e módulos \nespecificados do Programa de Capacitação em Inteligência Artificial. \n6.2. Os candidatos serão classificados segundo os seguintes critérios: \n6.1.1. Desempenho na Prova de Seleção (PS), a ser aplicada ao final do \nprocesso seletivo, com pontuação entre 0,0 e 10,0. \n6.1.2. Desempenho no questionário de Fit Social (FS), a ser aplicada ao \nfinal do processo seletivo, com pontuação entre 0,0 e 10,0. \n6.1.3. Serão classificados 100 (cem) candidatos, que atenderem ao item \n6.1, segundo a seguinte ponderação: \nNOTA = (0,7 x PS) + (0,3 x FS) \n6.1.4. Entre os classificados no item 6.1.3 serão selecionados aqueles \nque ocuparão as vagas definidas para o programa, conforme \nanálise subjetiva realizada pela comissão de coordenação, dos \nseguintes quesitos: \n6.1.4.1. Avaliação da participação nas trilhas de capacitação \nGoogle/Coursera; \n6.1.4.2. Avaliação da participação nos debates na plataforma \nDiscord; \n6.1.4.3. Participação no desafio na plataforma Kaggle; \n6.1.4.4. Análise curricular quanto a aderência da experiência ao \nprograma. \n6.1.5. Em caso de empate, serão adotados os seguintes critérios de \ndesempate: \n6.1.5.1. Maior pontuação, na Prova de Seleção, em Programação \npara IA; \n6.1.5.2. Maior pontuação, na Prova de Seleção, em IA Generativa. \n6.1.6. Os candidatos classificados e não selecionados comporão lista de \nespera e poderão ser chamados, a critério da Comissão de \nSeleção, para suprir vagas adicionais demandadas por projetos \nfuturos."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S2",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "9. Cronograma e Contato",
+        "similaridade": 0.6393,
+        "texto": "# 9. Cronograma e Contato\n9. DO CRONOGRAMA \n \n9.1. Este Processo Seletivo obedecerá ao seguinte cronograma: \nATIVIDADE DATA \nPublicação do Processo Seletivo 04/04/25 \nPeríodo de inscrições 04/04/25 a 13/04/25 \nPublicação da lista de candidatos homologados 15/04/25 \nDistribuição das licenças de uso para as trilhas 15/04/25 \nRealização das trilhas 16/04/25 a 06/05/25 \nComprovação das trilhas 07/05/25 a 11/05/25 \nProva de Seleção 10/05/25 \nPreenchimento do FIT Social 10/05/25 \nPublicação preliminar da lista dos candidatos classificados 15/05/25 \nPrazo para interposição de recurso 15/05/25 a 16/05/25 \nPublicação final da lista de candidatos selecionados 19/05/25 \n10. CONTATO \nO contato com a Comissão de Seleção deverá ocorrer exclusivamente pelo e-mail \nciia.inscricoes@hardware.org.br, a partir da publicação deste Processo Seletivo. \nOs candidatos homologados serão inseridos em um grupo da plataforma Discord, para \nreceberem as informações e o acompanhamento necessário após a homologação."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S1",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "8. Prova de Seleção",
+        "similaridade": 0.6334,
+        "texto": "# 8. Prova de Seleção\n8. PROVA DE SELEÇÃO \n \n8.1. Ao final do Programa de Capacitação em Inteligência Artificial, os \ncandidatos participarão da Prova de Seleção, na modalidade \npresencial, em local a ser divulgado aos candidatos homologados. \n8.2. A Prova de Seleção constará de trinta questões organizadas da \nseguinte forma: \n8.2.0. Fundamentos Básicos: dez questões de 0,2 pontos cada. \n8.2.1. IA Generativa: dez questões de 0,3 pontos cada. \n8.2.2. Programação para IA: dez questões de 0,5 pontos cada. \n8.3. A participação do candidato no processo de seleção está \ncondicionada às seguintes condições mínimas de desempenho na \nProva de Seleção: \n8.3.1. Mínimo de 4 pontos na soma total da prova. \n8.3.2. Acerto de pelo menos 50% das questões em cada trilha listada \nno item 8.2."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc3_classificacao_e_capacitacao.md (6. Preenchimento das Vagas e Critérios de Desempate)",
+      "doc4_prova_cronograma_contato.md (9. Cronograma e Contato)",
+      "doc4_prova_cronograma_contato.md (8. Prova de Seleção)"
+    ],
+    "resposta": "Com base nos trechos oficiais fornecidos, a nota para a classificação dos 100 candidatos é calculada por meio da seguinte ponderação:\n\n$$\\text{NOTA} = (0,7 \\times \\text{PS}) + (0,3 \\times \\text{FS})$$\n\nOnde:\n* **PS** = Desempenho na Prova de Seleção (pontuação entre 0,0 e 10,0).\n* **FS** = Desempenho no questionário de Fit Social (pontuação entre 0,0 e 10,0).\n\nEm caso de empate, os critérios adotados são:\n1. Maior pontuação, na Prova de Seleção, em Programação para IA.\n2. Maior pontuação, na Prova de Seleção, em IA Generativa.\n\n**Fonte/Seção utilizada:** `doc3_classificacao_e_capacitacao.md | Seção: 6. Preenchimento das Vagas e Critérios de Desempate` (itens 6.1.1, 6.1.2, 6.1.3 e 6.1.5).",
+    "latencia_segundos": 2.005,
+    "tokens_in": 1447,
+    "tokens_out": 254,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc3_classificacao_e_capacitacao.md (similaridade 0.7427).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C05",
+    "tipo_caso": "direta_cronograma",
+    "condicao": "COM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "Qual é o período de inscrições e a data da Prova de Seleção no Processo Seletivo HBR 02/2025?",
+    "gabarito_referencia": "Inscrições: 04/04/25 a 13/04/25. Prova de Seleção: 10/05/25.",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S2",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "9. Cronograma e Contato",
+        "similaridade": 0.7038,
+        "texto": "# 9. Cronograma e Contato\n9. DO CRONOGRAMA \n \n9.1. Este Processo Seletivo obedecerá ao seguinte cronograma: \nATIVIDADE DATA \nPublicação do Processo Seletivo 04/04/25 \nPeríodo de inscrições 04/04/25 a 13/04/25 \nPublicação da lista de candidatos homologados 15/04/25 \nDistribuição das licenças de uso para as trilhas 15/04/25 \nRealização das trilhas 16/04/25 a 06/05/25 \nComprovação das trilhas 07/05/25 a 11/05/25 \nProva de Seleção 10/05/25 \nPreenchimento do FIT Social 10/05/25 \nPublicação preliminar da lista dos candidatos classificados 15/05/25 \nPrazo para interposição de recurso 15/05/25 a 16/05/25 \nPublicação final da lista de candidatos selecionados 19/05/25 \n10. CONTATO \nO contato com a Comissão de Seleção deverá ocorrer exclusivamente pelo e-mail \nciia.inscricoes@hardware.org.br, a partir da publicação deste Processo Seletivo. \nOs candidatos homologados serão inseridos em um grupo da plataforma Discord, para \nreceberem as informações e o acompanhamento necessário após a homologação."
+      },
+      {
+        "chunk_id": "doc4_prova_cronograma_contato.md::S1",
+        "arquivo": "doc4_prova_cronograma_contato.md",
+        "secao": "8. Prova de Seleção",
+        "similaridade": 0.6366,
+        "texto": "# 8. Prova de Seleção\n8. PROVA DE SELEÇÃO \n \n8.1. Ao final do Programa de Capacitação em Inteligência Artificial, os \ncandidatos participarão da Prova de Seleção, na modalidade \npresencial, em local a ser divulgado aos candidatos homologados. \n8.2. A Prova de Seleção constará de trinta questões organizadas da \nseguinte forma: \n8.2.0. Fundamentos Básicos: dez questões de 0,2 pontos cada. \n8.2.1. IA Generativa: dez questões de 0,3 pontos cada. \n8.2.2. Programação para IA: dez questões de 0,5 pontos cada. \n8.3. A participação do candidato no processo de seleção está \ncondicionada às seguintes condições mínimas de desempenho na \nProva de Seleção: \n8.3.1. Mínimo de 4 pontos na soma total da prova. \n8.3.2. Acerto de pelo menos 50% das questões em cada trilha listada \nno item 8.2."
+      },
+      {
+        "chunk_id": "doc3_classificacao_e_capacitacao.md::S1",
+        "arquivo": "doc3_classificacao_e_capacitacao.md",
+        "secao": "6. Preenchimento das Vagas e Critérios de Desempate",
+        "similaridade": 0.615,
+        "texto": "# 6. Preenchimento das Vagas e Critérios de Desempate\n6. PREENCHIMENTO DAS VAGAS \n \n6.1. Os candidatos deverão comprovar a participação nas trilhas e módulos \nespecificados do Programa de Capacitação em Inteligência Artificial. \n6.2. Os candidatos serão classificados segundo os seguintes critérios: \n6.1.1. Desempenho na Prova de Seleção (PS), a ser aplicada ao final do \nprocesso seletivo, com pontuação entre 0,0 e 10,0. \n6.1.2. Desempenho no questionário de Fit Social (FS), a ser aplicada ao \nfinal do processo seletivo, com pontuação entre 0,0 e 10,0. \n6.1.3. Serão classificados 100 (cem) candidatos, que atenderem ao item \n6.1, segundo a seguinte ponderação: \nNOTA = (0,7 x PS) + (0,3 x FS) \n6.1.4. Entre os classificados no item 6.1.3 serão selecionados aqueles \nque ocuparão as vagas definidas para o programa, conforme \nanálise subjetiva realizada pela comissão de coordenação, dos \nseguintes quesitos: \n6.1.4.1. Avaliação da participação nas trilhas de capacitação \nGoogle/Coursera; \n6.1.4.2. Avaliação da participação nos debates na plataforma \nDiscord; \n6.1.4.3. Participação no desafio na plataforma Kaggle; \n6.1.4.4. Análise curricular quanto a aderência da experiência ao \nprograma. \n6.1.5. Em caso de empate, serão adotados os seguintes critérios de \ndesempate: \n6.1.5.1. Maior pontuação, na Prova de Seleção, em Programação \npara IA; \n6.1.5.2. Maior pontuação, na Prova de Seleção, em IA Generativa. \n6.1.6. Os candidatos classificados e não selecionados comporão lista de \nespera e poderão ser chamados, a critério da Comissão de \nSeleção, para suprir vagas adicionais demandadas por projetos \nfuturos."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc4_prova_cronograma_contato.md (9. Cronograma e Contato)",
+      "doc4_prova_cronograma_contato.md (8. Prova de Seleção)",
+      "doc3_classificacao_e_capacitacao.md (6. Preenchimento das Vagas e Critérios de Desempate)"
+    ],
+    "resposta": "Com base nos trechos oficiais fornecidos, o período de inscrições e a data da Prova de Seleção são os seguintes:\n\n* **Período de inscrições:** 04/04/25 a 13/04/25.\n* **Prova de Seleção:** 10/05/25.\n\n**Fonte:** [doc4_prova_cronograma_contato.md | Seção: 9. Cronograma e Contato]",
+    "latencia_segundos": 0.867,
+    "tokens_in": 1453,
+    "tokens_out": 105,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc4_prova_cronograma_contato.md (similaridade 0.7038).",
+    "avaliacao_uso_contexto": "Uso fiel do contexto: extraiu os valores/regras exatos do edital e citou a fonte.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "condicao": "COM_RAG",
+    "repeticao": 1,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (deve recusar e declarar falta de base documental).",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S1",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "1. Processo Seletivo e Público-Alvo",
+        "similaridade": 0.6352,
+        "texto": "# 1. Processo Seletivo e Público-Alvo\n1. PROCESSO SELETIVO \n \n1.1. Este Processo Seletivo oferece vagas para estudantes e profissionais das áreas \nde tecnologia, com foco em técnicas e tecnologias de Inteligência Artificial (IA), \nque atuarão no Centro Integrado de Inteligência Artificial (CIIA) nas seguintes \nfunções: \n1.1.1. Desenvolvedores de soluções voltadas às demandas do Governo do \nDistrito Federal (GDF). \n1.1.2. Monitores de alunos em trilhas de capacitação. \n \n2. PÚBLICO-ALVO \n \n2.1. Este Processo Seletivo aplica-se a estudantes de instituições de ensino \nsuperior, no nível de graduação ou pós-graduação, ou a profissionais atuantes \nno mercado, nas áreas da Engenharia Elétrica, Engenharia da Computação, \nEngenharia de Software e afins."
+      },
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S2",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "3. Condições para Inscrição",
+        "similaridade": 0.6274,
+        "texto": "# 3. Condições para Inscrição\n3. CONDIÇÕES PARA INSCRIÇÃO \n \n3.1. São condições necessárias, para a inscrição neste Processo Seletivo: \n3.1.1. Estar matriculado em instituição de ensino superior, em cursos de \ngraduação com pelo menos 50% da carga horária completa, ou estar \nmatriculado em curso de pós-graduação, mestrado ou doutorado; \n3.1.2. Comprovar, através de declaração, o compromisso de \ndisponibilidade de 20 horas semanais para atuar no desenvolvimento \nde projetos de IA, seja em monitoria, pesquisa ou no \ndesenvolvimento de aplicações; \n3.1.3. Candidatos que não atendam o requisito dos itens 3.1.1 e 3.1.2 \npoderão pleitear, à Comissão de Seleção, sua inscrição em caráter \nde excepcionalidade, pela comprovação de atuação acadêmica ou \nprofissional, por pelo menos dois anos, em áreas tecnológicas \ncorrelatas. \n3.2. É condição desejável, para inscrição neste Processo Seletivo, a \ncomprovação de residência em um raio de até 200 km de Brasília – DF."
+      },
+      {
+        "chunk_id": "doc3_classificacao_e_capacitacao.md::S2",
+        "arquivo": "doc3_classificacao_e_capacitacao.md",
+        "secao": "7. Programa de Capacitação em Inteligência Artificial",
+        "similaridade": 0.6225,
+        "texto": "# 7. Programa de Capacitação em Inteligência Artificial\n7. PROGRAMA DE CAPACITAÇÃO EM INTELIGÊNCIA ARTIFICIAL \n \n7.1. O Programa de Capacitação em Inteligência Artificial objetiva a \nformação e seleção de profissionais, que comporão o quadro de \ncolaboradores do CIIA, contribuindo para o desenvolvimento de \nsoluções, pesquisas e projetos de inovação com foco em IA, para \naprimoramento dos serviços públicos no Distrito Federal. \n                                             \n7.2. O programa contempla trilhas de formação em ambientes de ensino \nonline e a participação em um desafio prático para desenvolvimento \nde solução em IA. \n7.3. O Programa de Capacitação em Inteligência Artificial é composto de \ntrilhas e módulos na modalidade Ensino à Distância (EaD), que serão \napresentados aos candidatos homologados, juntamente com as \ninstruções de acesso, após publicação da lista de candidatos \nhomologados."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc1_objetivo_e_elegibilidade.md (1. Processo Seletivo e Público-Alvo)",
+      "doc1_objetivo_e_elegibilidade.md (3. Condições para Inscrição)",
+      "doc3_classificacao_e_capacitacao.md (7. Programa de Capacitação em Inteligência Artificial)"
+    ],
+    "resposta": "Não encontrei base documental suficiente nos trechos consultados para responder a esta pergunta.",
+    "latencia_segundos": 0.621,
+    "tokens_in": 1033,
+    "tokens_out": 17,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc1_objetivo_e_elegibilidade.md (similaridade 0.6352).",
+    "avaliacao_uso_contexto": "Recusa fiel ao contexto: declarou ausência de base documental nos trechos sem alucinar.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "condicao": "COM_RAG",
+    "repeticao": 2,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (deve recusar e declarar falta de base documental).",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S1",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "1. Processo Seletivo e Público-Alvo",
+        "similaridade": 0.6352,
+        "texto": "# 1. Processo Seletivo e Público-Alvo\n1. PROCESSO SELETIVO \n \n1.1. Este Processo Seletivo oferece vagas para estudantes e profissionais das áreas \nde tecnologia, com foco em técnicas e tecnologias de Inteligência Artificial (IA), \nque atuarão no Centro Integrado de Inteligência Artificial (CIIA) nas seguintes \nfunções: \n1.1.1. Desenvolvedores de soluções voltadas às demandas do Governo do \nDistrito Federal (GDF). \n1.1.2. Monitores de alunos em trilhas de capacitação. \n \n2. PÚBLICO-ALVO \n \n2.1. Este Processo Seletivo aplica-se a estudantes de instituições de ensino \nsuperior, no nível de graduação ou pós-graduação, ou a profissionais atuantes \nno mercado, nas áreas da Engenharia Elétrica, Engenharia da Computação, \nEngenharia de Software e afins."
+      },
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S2",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "3. Condições para Inscrição",
+        "similaridade": 0.6274,
+        "texto": "# 3. Condições para Inscrição\n3. CONDIÇÕES PARA INSCRIÇÃO \n \n3.1. São condições necessárias, para a inscrição neste Processo Seletivo: \n3.1.1. Estar matriculado em instituição de ensino superior, em cursos de \ngraduação com pelo menos 50% da carga horária completa, ou estar \nmatriculado em curso de pós-graduação, mestrado ou doutorado; \n3.1.2. Comprovar, através de declaração, o compromisso de \ndisponibilidade de 20 horas semanais para atuar no desenvolvimento \nde projetos de IA, seja em monitoria, pesquisa ou no \ndesenvolvimento de aplicações; \n3.1.3. Candidatos que não atendam o requisito dos itens 3.1.1 e 3.1.2 \npoderão pleitear, à Comissão de Seleção, sua inscrição em caráter \nde excepcionalidade, pela comprovação de atuação acadêmica ou \nprofissional, por pelo menos dois anos, em áreas tecnológicas \ncorrelatas. \n3.2. É condição desejável, para inscrição neste Processo Seletivo, a \ncomprovação de residência em um raio de até 200 km de Brasília – DF."
+      },
+      {
+        "chunk_id": "doc3_classificacao_e_capacitacao.md::S2",
+        "arquivo": "doc3_classificacao_e_capacitacao.md",
+        "secao": "7. Programa de Capacitação em Inteligência Artificial",
+        "similaridade": 0.6225,
+        "texto": "# 7. Programa de Capacitação em Inteligência Artificial\n7. PROGRAMA DE CAPACITAÇÃO EM INTELIGÊNCIA ARTIFICIAL \n \n7.1. O Programa de Capacitação em Inteligência Artificial objetiva a \nformação e seleção de profissionais, que comporão o quadro de \ncolaboradores do CIIA, contribuindo para o desenvolvimento de \nsoluções, pesquisas e projetos de inovação com foco em IA, para \naprimoramento dos serviços públicos no Distrito Federal. \n                                             \n7.2. O programa contempla trilhas de formação em ambientes de ensino \nonline e a participação em um desafio prático para desenvolvimento \nde solução em IA. \n7.3. O Programa de Capacitação em Inteligência Artificial é composto de \ntrilhas e módulos na modalidade Ensino à Distância (EaD), que serão \napresentados aos candidatos homologados, juntamente com as \ninstruções de acesso, após publicação da lista de candidatos \nhomologados."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc1_objetivo_e_elegibilidade.md (1. Processo Seletivo e Público-Alvo)",
+      "doc1_objetivo_e_elegibilidade.md (3. Condições para Inscrição)",
+      "doc3_classificacao_e_capacitacao.md (7. Programa de Capacitação em Inteligência Artificial)"
+    ],
+    "resposta": "Não encontrei base documental suficiente nos trechos consultados para responder a esta pergunta.",
+    "latencia_segundos": 0.694,
+    "tokens_in": 1033,
+    "tokens_out": 17,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc1_objetivo_e_elegibilidade.md (similaridade 0.6352).",
+    "avaliacao_uso_contexto": "Recusa fiel ao contexto: declarou ausência de base documental nos trechos sem alucinar.",
+    "nota_qualidade_0_a_3": 3
+  },
+  {
+    "data": "2026-11-17 16:48:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "condicao": "COM_RAG",
+    "repeticao": 3,
+    "configuracao": {
+      "nome": "config_A_baseline_temp0",
+      "temperature": 0.0,
+      "max_output_tokens": 350
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (deve recusar e declarar falta de base documental).",
+    "trechos_recuperados": [
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S1",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "1. Processo Seletivo e Público-Alvo",
+        "similaridade": 0.6352,
+        "texto": "# 1. Processo Seletivo e Público-Alvo\n1. PROCESSO SELETIVO \n \n1.1. Este Processo Seletivo oferece vagas para estudantes e profissionais das áreas \nde tecnologia, com foco em técnicas e tecnologias de Inteligência Artificial (IA), \nque atuarão no Centro Integrado de Inteligência Artificial (CIIA) nas seguintes \nfunções: \n1.1.1. Desenvolvedores de soluções voltadas às demandas do Governo do \nDistrito Federal (GDF). \n1.1.2. Monitores de alunos em trilhas de capacitação. \n \n2. PÚBLICO-ALVO \n \n2.1. Este Processo Seletivo aplica-se a estudantes de instituições de ensino \nsuperior, no nível de graduação ou pós-graduação, ou a profissionais atuantes \nno mercado, nas áreas da Engenharia Elétrica, Engenharia da Computação, \nEngenharia de Software e afins."
+      },
+      {
+        "chunk_id": "doc1_objetivo_e_elegibilidade.md::S2",
+        "arquivo": "doc1_objetivo_e_elegibilidade.md",
+        "secao": "3. Condições para Inscrição",
+        "similaridade": 0.6274,
+        "texto": "# 3. Condições para Inscrição\n3. CONDIÇÕES PARA INSCRIÇÃO \n \n3.1. São condições necessárias, para a inscrição neste Processo Seletivo: \n3.1.1. Estar matriculado em instituição de ensino superior, em cursos de \ngraduação com pelo menos 50% da carga horária completa, ou estar \nmatriculado em curso de pós-graduação, mestrado ou doutorado; \n3.1.2. Comprovar, através de declaração, o compromisso de \ndisponibilidade de 20 horas semanais para atuar no desenvolvimento \nde projetos de IA, seja em monitoria, pesquisa ou no \ndesenvolvimento de aplicações; \n3.1.3. Candidatos que não atendam o requisito dos itens 3.1.1 e 3.1.2 \npoderão pleitear, à Comissão de Seleção, sua inscrição em caráter \nde excepcionalidade, pela comprovação de atuação acadêmica ou \nprofissional, por pelo menos dois anos, em áreas tecnológicas \ncorrelatas. \n3.2. É condição desejável, para inscrição neste Processo Seletivo, a \ncomprovação de residência em um raio de até 200 km de Brasília – DF."
+      },
+      {
+        "chunk_id": "doc3_classificacao_e_capacitacao.md::S2",
+        "arquivo": "doc3_classificacao_e_capacitacao.md",
+        "secao": "7. Programa de Capacitação em Inteligência Artificial",
+        "similaridade": 0.6225,
+        "texto": "# 7. Programa de Capacitação em Inteligência Artificial\n7. PROGRAMA DE CAPACITAÇÃO EM INTELIGÊNCIA ARTIFICIAL \n \n7.1. O Programa de Capacitação em Inteligência Artificial objetiva a \nformação e seleção de profissionais, que comporão o quadro de \ncolaboradores do CIIA, contribuindo para o desenvolvimento de \nsoluções, pesquisas e projetos de inovação com foco em IA, para \naprimoramento dos serviços públicos no Distrito Federal. \n                                             \n7.2. O programa contempla trilhas de formação em ambientes de ensino \nonline e a participação em um desafio prático para desenvolvimento \nde solução em IA. \n7.3. O Programa de Capacitação em Inteligência Artificial é composto de \ntrilhas e módulos na modalidade Ensino à Distância (EaD), que serão \napresentados aos candidatos homologados, juntamente com as \ninstruções de acesso, após publicação da lista de candidatos \nhomologados."
+      }
+    ],
+    "fontes_apresentadas": [
+      "doc1_objetivo_e_elegibilidade.md (1. Processo Seletivo e Público-Alvo)",
+      "doc1_objetivo_e_elegibilidade.md (3. Condições para Inscrição)",
+      "doc3_classificacao_e_capacitacao.md (7. Programa de Capacitação em Inteligência Artificial)"
+    ],
+    "resposta": "Não encontrei base documental suficiente nos trechos consultados para responder a esta pergunta.",
+    "latencia_segundos": 1.439,
+    "tokens_in": 1033,
+    "tokens_out": 17,
+    "avaliacao_recuperacao": "Recuperação relevante: topo em doc1_objetivo_e_elegibilidade.md (similaridade 0.6352).",
+    "avaliacao_uso_contexto": "Recusa fiel ao contexto: declarou ausência de base documental nos trechos sem alucinar.",
+    "nota_qualidade_0_a_3": 3
+  }
+]
