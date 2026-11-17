@@ -1,0 +1,620 @@
+[
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo essa informação exata no momento. Recomendo consultar diretamente o texto oficial do Edital HBR 02/2025 para verificar o quantitativo de vagas e os valores de bolsa correspondentes ao perfil de desenvolvedor de soluções.",
+        "tokens_in": 107,
+        "tokens_out": 81,
+        "tempo_execucao": 1.104,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo essa informação exata no momento. Recomendo consultar diretamente o texto oficial do Edital HBR 02/2025 para verificar o quantitativo de vagas e os valores de bolsa correspondentes ao perfil de desenvolvedor de soluções.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C02",
+    "tipo_caso": "combinada",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Não sou estudante de graduação nem pós-graduação. Posso me inscrever no processo seletivo HBR 02/2025?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que os requisitos específicos de escolaridade e vínculo acadêmico variam de acordo com a vaga descrita no edital. \n\nNão possuo informação suficiente em minha base de dados para confirmar se há vagas específicas para pessoas que não estão vinculadas à graduação ou pós-graduação. Recomendo a leitura atenta do edital oficial do Processo Seletivo HBR 02/2025 para verificar os pré-requisitos exigidos para a vaga de seu interesse.",
+        "tokens_in": 120,
+        "tokens_out": 129,
+        "tempo_execucao": 0.973,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que os requisitos específicos de escolaridade e vínculo acadêmico variam de acordo com a vaga descrita no edital. \n\nNão possuo informação suficiente em minha base de dados para confirmar se há vagas específicas para pessoas que não estão vinculadas à graduação ou pós-graduação. Recomendo a leitura atenta do edital oficial do Processo Seletivo HBR 02/2025 para verificar os pré-requisitos exigidos para a vaga de seu interesse.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo em minha base de dados os detalhes específicos sobre a fórmula exata de cálculo da nota final para a classificação dos 100 primeiros candidatos e nem os critérios de desempate previstos para esta etapa. \n\nPara obter essa informação precisa, por favor, consulte diretamente o texto completo do Edital do Processo Seletivo HBR 02/2025 ou entre em contato com a organização responsável pelo concurso através dos canais oficiais de atendimento do CIIA.",
+        "tokens_in": 113,
+        "tokens_out": 128,
+        "tempo_execucao": 1.428,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo em minha base de dados os detalhes específicos sobre a fórmula exata de cálculo da nota final para a classificação dos 100 primeiros candidatos e nem os critérios de desempate previstos para esta etapa. \n\nPara obter essa informação precisa, por favor, consulte diretamente o texto completo do Edital do Processo Seletivo HBR 02/2025 ou entre em contato com a organização responsável pelo concurso através dos canais oficiais de atendimento do CIIA.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C04",
+    "tipo_caso": "direta",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Como é dividida a Prova de Seleção do CIIA e qual a pontuação mínima para não ser eliminado?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo em minha base de dados a divisão exata da Prova de Seleção e nem os valores referentes à pontuação mínima exigida para evitar a eliminação. \n\nRecomendo a leitura atenta do Edital oficial do Processo Seletivo HBR 02/2025, onde essas informações sobre etapas, pesos e critérios de eliminação constam detalhadamente.",
+        "tokens_in": 111,
+        "tokens_out": 110,
+        "tempo_execucao": 1.432,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo em minha base de dados a divisão exata da Prova de Seleção e nem os valores referentes à pontuação mínima exigida para evitar a eliminação. \n\nRecomendo a leitura atenta do Edital oficial do Processo Seletivo HBR 02/2025, onde essas informações sobre etapas, pesos e critérios de eliminação constam detalhadamente.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C05",
+    "tipo_caso": "direta",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Qual é o período de inscrições e a data da Prova de Seleção no Processo Seletivo HBR 02/2025?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do Centro Integrado de Inteligência Artificial (CIIA), informo que não possuo essa informação factual exata no momento. Recomendo consultar o texto oficial do edital publicado para verificar o cronograma completo, incluindo o período de inscrições e a data da Prova de Seleção.",
+        "tokens_in": 120,
+        "tokens_out": 81,
+        "tempo_execucao": 2.483,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do Centro Integrado de Inteligência Artificial (CIIA), informo que não possuo essa informação factual exata no momento. Recomendo consultar o texto oficial do edital publicado para verificar o cronograma completo, incluindo o período de inscrições e a data da Prova de Seleção.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo detalhes específicos no edital sobre a exigência de certificado de proficiência em inglês (como TOEFL ou IELTS) para a assunção das bolsas. \n\nPara confirmar essa informação, recomendo a leitura completa do edital oficial do Processo Seletivo HBR 02/2025 ou o contato direto com a coordenação do Centro Integrado de Inteligência Artificial (CIIA) através dos canais oficiais de atendimento informados no documento.",
+        "tokens_in": 113,
+        "tokens_out": 125,
+        "tempo_execucao": 2.838,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo detalhes específicos no edital sobre a exigência de certificado de proficiência em inglês (como TOEFL ou IELTS) para a assunção das bolsas. \n\nPara confirmar essa informação, recomendo a leitura completa do edital oficial do Processo Seletivo HBR 02/2025 ou o contato direto com a coordenação do Centro Integrado de Inteligência Artificial (CIIA) através dos canais oficiais de atendimento informados no documento.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C07",
+    "tipo_caso": "ambigua",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Quanto vou ganhar e quantas horas preciso trabalhar?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que os detalhes sobre valores de bolsas, carga horária e modalidades de dedicação (como número de horas semanais) variam de acordo com o nível da vaga pretendida (por exemplo, graduação, pós-graduação, pesquisador, entre outros) e estão especificados nas tabelas e seções correspondentes do edital oficial.\n\nRecomendo a leitura atenta do edital do Processo Seletivo HBR 02/2025 para verificar os valores exatos da bolsa e a carga horária exigida para a vaga de seu interesse, pois não possuo a lista completa de todas as combinações de vagas e bolsas decorrentes de atualizações pontuais sem consultar o documento na íntegra.",
+        "tokens_in": 96,
+        "tokens_out": 178,
+        "tempo_execucao": 3.87,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que os detalhes sobre valores de bolsas, carga horária e modalidades de dedicação (como número de horas semanais) variam de acordo com o nível da vaga pretendida (por exemplo, graduação, pós-graduação, pesquisador, entre outros) e estão especificados nas tabelas e seções correspondentes do edital oficial.\n\nRecomendo a leitura atenta do edital do Processo Seletivo HBR 02/2025 para verificar os valores exatos da bolsa e a carga horária exigida para a vaga de seu interesse, pois não possuo a lista completa de todas as combinações de vagas e bolsas decorrentes de atualizações pontuais sem consultar o documento na íntegra.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C08",
+    "tipo_caso": "fora_escopo",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Tenho 60% da graduação concluída em Engenharia da Computação e tirei 7,5 na prova. Fui aprovado no CIIA?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Não possuo informação suficiente para prever aprovação ou avaliar candidatos individuais, pois não tenho acesso ao resultado final, à nota de corte do edital, à classificação dos demais concorrentes ou aos critérios específicos de desempate do Processo Seletivo HBR 02/2025 (CIIA). \n\nPara verificar se você foi aprovado, por favor, consulte a lista oficial de resultados divulgada nos canais oficiais do Centro Integrado de Inteligência Artificial (CIIA).",
+        "tokens_in": 122,
+        "tokens_out": 104,
+        "tempo_execucao": 1.316,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Não possuo informação suficiente para prever aprovação ou avaliar candidatos individuais, pois não tenho acesso ao resultado final, à nota de corte do edital, à classificação dos demais concorrentes ou aos critérios específicos de desempate do Processo Seletivo HBR 02/2025 (CIIA). \n\nPara verificar se você foi aprovado, por favor, consulte a lista oficial de resultados divulgada nos canais oficiais do Centro Integrado de Inteligência Artificial (CIIA).",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C09_FALHA_ENTRADA",
+    "tipo_caso": "teste_falha_validacao",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": false,
+        "tempo_execucao": 0.0,
+        "erro": "Entrada vazia ou inválida fornecida pelo usuário."
+      }
+    ],
+    "situacao_final": "interrompido_validacao",
+    "resposta_final": "",
+    "erro_geral": "Entrada vazia ou inválida fornecida pelo usuário.",
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C01",
+    "tipo_caso": "direta",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo essa informação exata no momento, pois não tenho acesso aos detalhes específicos de quantitativos de vagas e valores de bolsas por cargo descritos no edital detalhado. \n\nRecomendo a leitura completa do Edital HBR 02/2025 publicado oficialmente para obter os valores corretos e o número exato de vagas para desenvolvedores de soluções.",
+        "tokens_in": 107,
+        "tokens_out": 106,
+        "tempo_execucao": 1.788,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo essa informação exata no momento, pois não tenho acesso aos detalhes específicos de quantitativos de vagas e valores de bolsas por cargo descritos no edital detalhado. \n\nRecomendo a leitura completa do Edital HBR 02/2025 publicado oficialmente para obter os valores corretos e o número exato de vagas para desenvolvedores de soluções.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C02",
+    "tipo_caso": "combinada",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Não sou estudante de graduação nem pós-graduação. Posso me inscrever no processo seletivo HBR 02/2025?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do Centro Integrado de Inteligência Artificial (CIIA), informo que não possuo os detalhes específicos sobre a exigência de vínculo acadêmico (graduação ou pós-graduação) para todas as vagas do edital atual, pois os requisitos podem variar conforme a modalidade da bolsa ou perfil da vaga. \n\nRecomendo a leitura atenta do edital oficial do Processo Seletivo HBR 02/2025 para verificar se há vagas abertas para o seu perfil ou se a condição de estudante regular é obrigatória. Não posso avaliar sua elegibilidade individual.",
+        "tokens_in": 120,
+        "tokens_out": 144,
+        "tempo_execucao": 1.203,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do Centro Integrado de Inteligência Artificial (CIIA), informo que não possuo os detalhes específicos sobre a exigência de vínculo acadêmico (graduação ou pós-graduação) para todas as vagas do edital atual, pois os requisitos podem variar conforme a modalidade da bolsa ou perfil da vaga. \n\nRecomendo a leitura atenta do edital oficial do Processo Seletivo HBR 02/2025 para verificar se há vagas abertas para o seu perfil ou se a condição de estudante regular é obrigatória. Não posso avaliar sua elegibilidade individual.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C03",
+    "tipo_caso": "combinada",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que não possuo em minha base de dados os detalhes específicos sobre a fórmula exata de cálculo da nota final para a classificação dos 100 primeiros candidatos e nem os critérios de desempate previstos para esta etapa. \n\nPara obter essa informação com precisão, por favor, consulte o texto completo do **Edital do Processo Seletivo HBR 02/2025** ou entre em contato diretamente com a equipe organizadora do Centro Integrado de Inteligência Artificial (CIIA).",
+        "tokens_in": 113,
+        "tokens_out": 134,
+        "tempo_execucao": 1.078,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que não possuo em minha base de dados os detalhes específicos sobre a fórmula exata de cálculo da nota final para a classificação dos 100 primeiros candidatos e nem os critérios de desempate previstos para esta etapa. \n\nPara obter essa informação com precisão, por favor, consulte o texto completo do **Edital do Processo Seletivo HBR 02/2025** ou entre em contato diretamente com a equipe organizadora do Centro Integrado de Inteligência Artificial (CIIA).",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C04",
+    "tipo_caso": "direta",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Como é dividida a Prova de Seleção do CIIA e qual a pontuação mínima para não ser eliminado?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo em minha base de dados atual os detalhes específicos sobre a divisão da Prova de Seleção e a pontuação mínima exata para eliminação. Recomendo a leitura completa do edital oficial do processo seletivo para obter essas informações detalhadas.",
+        "tokens_in": 111,
+        "tokens_out": 81,
+        "tempo_execucao": 1.429,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo em minha base de dados atual os detalhes específicos sobre a divisão da Prova de Seleção e a pontuação mínima exata para eliminação. Recomendo a leitura completa do edital oficial do processo seletivo para obter essas informações detalhadas.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C05",
+    "tipo_caso": "direta",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Qual é o período de inscrições e a data da Prova de Seleção no Processo Seletivo HBR 02/2025?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo a informação exata sobre o período de inscrições e a data da Prova de Seleção no momento. Recomendo consultar o edital oficial publicado pelo Centro Integrado de Inteligência Artificial para obter essas datas com precisão.",
+        "tokens_in": 120,
+        "tokens_out": 77,
+        "tempo_execucao": 1.538,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo a informação exata sobre o período de inscrições e a data da Prova de Seleção no momento. Recomendo consultar o edital oficial publicado pelo Centro Integrado de Inteligência Artificial para obter essas datas com precisão.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C06",
+    "tipo_caso": "ausente_inducao",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo essa informação específica detalhada no edital sobre a exigência de certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa. Recomendo a leitura atenta do texto completo do edital oficial do processo seletivo para confirmar os requisitos documentais exigidos.",
+        "tokens_in": 113,
+        "tokens_out": 90,
+        "tempo_execucao": 3.205,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não possuo essa informação específica detalhada no edital sobre a exigência de certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa. Recomendo a leitura atenta do texto completo do edital oficial do processo seletivo para confirmar os requisitos documentais exigidos.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C07",
+    "tipo_caso": "ambigua",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Quanto vou ganhar e quantas horas preciso trabalhar?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que os detalhes sobre valores de bolsas, carga horária e regime de trabalho estão especificados diretamente no texto do edital oficial. \n\nRecomendo a leitura atenta do edital publicado para verificar a remuneração (bolsa) e a carga horária correspondentes à vaga de seu interesse, pois esses dados podem variar conforme o perfil ou nível da vaga pretendida.\n\nNão possuo informações adicionais sobre casos específicos além do que consta no documento oficial. Se tiver dúvidas sobre outras regras gerais do processo seletivo, estou à disposição!",
+        "tokens_in": 96,
+        "tokens_out": 139,
+        "tempo_execucao": 2.129,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que os detalhes sobre valores de bolsas, carga horária e regime de trabalho estão especificados diretamente no texto do edital oficial. \n\nRecomendo a leitura atenta do edital publicado para verificar a remuneração (bolsa) e a carga horária correspondentes à vaga de seu interesse, pois esses dados podem variar conforme o perfil ou nível da vaga pretendida.\n\nNão possuo informações adicionais sobre casos específicos além do que consta no documento oficial. Se tiver dúvidas sobre outras regras gerais do processo seletivo, estou à disposição!",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C08",
+    "tipo_caso": "fora_escopo",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": true,
+        "entrada_normalizada": "Tenho 60% da graduação concluída em Engenharia da Computação e tirei 7,5 na prova. Fui aprovado no CIIA?",
+        "tempo_execucao": 0.0,
+        "erro": null
+      },
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": true,
+        "resposta": "Não possuo informações para responder a essa pergunta. Como assistente informativo, não posso avaliar candidatos individuais, calcular notas pessoais ou prever aprovação no Processo Seletivo HBR 02/2025 do CIIA. Para verificar sua situação, consulte os resultados oficiais publicados nos canais oficiais do processo seletivo.",
+        "tokens_in": 122,
+        "tokens_out": 69,
+        "tempo_execucao": 1.11,
+        "erro": null,
+        "tentativas_realizadas": 1
+      }
+    ],
+    "situacao_final": "concluido_com_sucesso",
+    "resposta_final": "Não possuo informações para responder a essa pergunta. Como assistente informativo, não posso avaliar candidatos individuais, calcular notas pessoais ou prever aprovação no Processo Seletivo HBR 02/2025 do CIIA. Para verificar sua situação, consulte os resultados oficiais publicados nos canais oficiais do processo seletivo.",
+    "erro_geral": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C09_FALHA_ENTRADA",
+    "tipo_caso": "teste_falha_validacao",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "1_validacao",
+        "sucesso": false,
+        "tempo_execucao": 0.0,
+        "erro": "Entrada vazia ou inválida fornecida pelo usuário."
+      }
+    ],
+    "situacao_final": "interrompido_validacao",
+    "resposta_final": "",
+    "erro_geral": "Entrada vazia ou inválida fornecida pelo usuário.",
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 16:03:47",
+    "caso_id": "C10_FALHA_API_SIMULADA",
+    "tipo_caso": "teste_falha_api",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300
+    },
+    "etapas": [
+      {
+        "etapa": "2_geracao_llm",
+        "sucesso": false,
+        "resposta": "",
+        "tokens_in": null,
+        "tokens_out": null,
+        "tempo_execucao": 1.005,
+        "erro": "TimeoutError: Timeout simulado na chamada ao serviço Gemini.",
+        "tentativas_realizadas": 2
+      }
+    ],
+    "situacao_final": "falha_api_tratada",
+    "resposta_final": "",
+    "erro_geral": "TimeoutError: Timeout simulado na chamada ao serviço Gemini.",
+    "nota_avaliacao_0_a_3": 3,
+    "observacao": "Falha de timeout capturada sem quebrar a aplicação."
+  }
+]
+
