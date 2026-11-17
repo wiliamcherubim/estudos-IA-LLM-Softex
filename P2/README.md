@@ -22,5 +22,5 @@ Avaliação experimental de configurações do modelo `gemini-3.5-flash-lite` e 
 
 ## Vídeo de Demonstração
 
-- Link do YouTube (Não listado): [INSERIR LINK DO VÍDEO APÓS GRAVAÇÃO]
+- Link do YouTube (Não listado): [Assista ao video](https://youtu.be/s87KqSb-d5U)
   Inicio do projeto P2
