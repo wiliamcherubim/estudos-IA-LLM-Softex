@@ -1,0 +1,230 @@
+[
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C01",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300,
+      "descricao": "Linha de base determinística (temperature=0.0)"
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores de soluções; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não disponho de dados suficientes** no momento para confirmar o número exato de vagas para desenvolvedores de soluções e o valor mensal da bolsa. \n\nRecomendo consultar o edital oficial do Processo Seletivo HBR 02/2025 para obter essas informações com precisão.",
+    "latencia_segundos": 1.567,
+    "tokens_entrada": 99,
+    "tokens_saida": 91,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C02",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300,
+      "descricao": "Linha de base determinística (temperature=0.0)"
+    },
+    "pergunta": "Não sou estudante de graduação nem pós-graduação. Posso me inscrever no processo seletivo HBR 02/2025?",
+    "gabarito_referencia": "Sim, em caráter de excepcionalidade, comprovando pelo menos 2 anos de atuação acadêmica ou profissional em áreas tecnológicas correlatas.",
+    "resposta": "Como sou um assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não possuo dados suficientes** no momento sobre os requisitos exatos de escolaridade ou elegibilidade para candidatos que não estão vinculados à graduação ou pós-graduação. \n\nPara confirmar se você pode se inscrever nessa situação, recomendo consultar o edital oficial completo do Processo Seletivo HBR 02/2025 ou entrar em contato diretamente com a equipe organizadora do Centro Integrado de Inteligência Artificial (CIIA).",
+    "latencia_segundos": 1.157,
+    "tokens_entrada": 112,
+    "tokens_saida": 125,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C03",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300,
+      "descricao": "Linha de base determinística (temperature=0.0)"
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), devo informar que não disponho da documentação oficial detalhada contendo a fórmula exata de cálculo da nota final e os critérios específicos de desempate para a classificação dos 100 primeiros candidatos neste momento. \n\nRecomendo a consulta ao Edital oficial do Processo Seletivo HBR 02/2025 ou aos canais de comunicação oficiais do Centro Integrado de Inteligência Artificial (CIIA) para obter essa informação com precisão. Não invento regras ou critérios.",
+    "latencia_segundos": 3.187,
+    "tokens_entrada": 105,
+    "tokens_saida": 131,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C04",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300,
+      "descricao": "Linha de base determinística (temperature=0.0)"
+    },
+    "pergunta": "Como é dividida a Prova de Seleção do CIIA e qual a pontuação mínima para não ser eliminado?",
+    "gabarito_referencia": "30 questões (10 Fundamentos x 0,2; 10 IA Generativa x 0,3; 10 Programação IA x 0,5). Mínimo 4 pontos no total e 50% por trilha.",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não disponho de dados suficientes** no momento sobre a divisão exata da Prova de Seleção e a respectiva pontuação mínima para eliminação. \n\nRecomendo consultar o Edital oficial do Processo Seletivo HBR 02/2025 para obter essas informações detalhadas e precisas.",
+    "latencia_segundos": 1.461,
+    "tokens_entrada": 103,
+    "tokens_saida": 95,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C05",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300,
+      "descricao": "Linha de base determinística (temperature=0.0)"
+    },
+    "pergunta": "Qual é o período de inscrições e a data da Prova de Seleção no Processo Seletivo HBR 02/2025?",
+    "gabarito_referencia": "Inscrições: 04/04/25 a 13/04/25. Prova de Seleção: 10/05/25.",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do Centro Integrado de Inteligência Artificial (CIIA), informo que não disponho em minha base de dados oficial das datas exatas referentes ao período de inscrições e à realização da Prova de Seleção. \n\nPara obter essas informações oficiais e atualizadas, por favor, consulte o edital publicado no site oficial do CIIA ou entre em contato com a organização do processo seletivo. Não invento datas ou regras.",
+    "latencia_segundos": 2.619,
+    "tokens_entrada": 112,
+    "tokens_saida": 110,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C06",
+    "configuracao": "config_A_baseline_temp0",
+    "parametros": {
+      "temperature": 0.0,
+      "max_output_tokens": 300,
+      "descricao": "Linha de base determinística (temperature=0.0)"
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (não há exigência de certificação em inglês).",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não disponho de dados suficientes no momento sobre a exigência específica de certificado de proficiência em inglês (como TOEFL ou IELTS) para assumir a bolsa. \n\nRecomendo a leitura atenta do edital oficial do Processo Seletivo HBR 02/2025 para confirmar se essa exigência consta entre os requisitos documentais. Não invento regras ou exigências que não estejam explicitamente documentadas nas informações oficiais que me foram fornecidas.",
+    "latencia_segundos": 1.012,
+    "tokens_entrada": 105,
+    "tokens_saida": 124,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C01",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300,
+      "descricao": "Variação com maior aleatoriedade (temperature=0.9)"
+    },
+    "pergunta": "Quantas vagas existem para desenvolvedores de soluções no CIIA e qual o valor mensal da bolsa?",
+    "gabarito_referencia": "20 vagas para desenvolvedores de soluções; bolsa de R$ 2.800,00 mensais (20h/semana).",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não disponho em minha base de dados oficial do número exato de vagas nem do valor mensal da bolsa para o cargo de desenvolvedor de soluções. \n\nRecomendo a leitura do edital oficial do Processo Seletivo HBR 02/2025 para obter essas informações com precisão.",
+    "latencia_segundos": 1.255,
+    "tokens_entrada": 99,
+    "tokens_saida": 92,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C02",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300,
+      "descricao": "Variação com maior aleatoriedade (temperature=0.9)"
+    },
+    "pergunta": "Não sou estudante de graduação nem pós-graduação. Posso me inscrever no processo seletivo HBR 02/2025?",
+    "gabarito_referencia": "Sim, em caráter de excepcionalidade, comprovando pelo menos 2 anos de atuação acadêmica ou profissional em áreas tecnológicas correlatas.",
+    "resposta": "Como sou um assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que **não disponho de dados suficientes** na minha base atual para confirmar os requisitos detalhados de escolaridade ou elegibilidade para candidatos que não são estudantes de graduação ou pós-graduação. \n\nPara obter uma resposta oficial e precisa sobre o seu caso, recomendo consultar o edital completo do processo seletivo HBR 02/2025 ou entrar em contato diretamente com a equipe organizadora do Centro Integrado de Inteligência Artificial (CIIA).",
+    "latencia_segundos": 1.076,
+    "tokens_entrada": 112,
+    "tokens_saida": 129,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C03",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300,
+      "descricao": "Variação com maior aleatoriedade (temperature=0.9)"
+    },
+    "pergunta": "Como é calculada a nota final para classificação dos 100 primeiros candidatos e quais são os critérios de desempate?",
+    "gabarito_referencia": "NOTA = (0,7 x PS) + (0,3 x FS). Desempate: 1º Programação para IA; 2º IA Generativa.",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que **não disponho de dados suficientes** no momento sobre a fórmula exata de cálculo da nota final e os critérios específicos de desempate para a classificação dos 100 primeiros candidatos. \n\nPara obter essa informação oficial exata, recomendo consultar o Edital completo do Processo Seletivo HBR 02/2025 ou entrar em contato com a organização responsável pelo CIIA. Não invento regras ou critérios.",
+    "latencia_segundos": 1.9,
+    "tokens_entrada": 105,
+    "tokens_saida": 119,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C04",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300,
+      "descricao": "Variação com maior aleatoriedade (temperature=0.9)"
+    },
+    "pergunta": "Como é dividida a Prova de Seleção do CIIA e qual a pontuação mínima para não ser eliminado?",
+    "gabarito_referencia": "30 questões (10 Fundamentos x 0,2; 10 IA Generativa x 0,3; 10 Programação IA x 0,5). Mínimo 4 pontos no total e 50% por trilha.",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que **não disponho de dados suficientes** no momento sobre a divisão exata da Prova de Seleção e a pontuação mínima exigida para evitar a eliminação. \n\nRecomendo consultar o Edital oficial do Processo Seletivo HBR 02/2025 para obter essas informações detalhadas e precisas.",
+    "latencia_segundos": 1.234,
+    "tokens_entrada": 103,
+    "tokens_saida": 97,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C05",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300,
+      "descricao": "Variação com maior aleatoriedade (temperature=0.9)"
+    },
+    "pergunta": "Qual é o período de inscrições e a data da Prova de Seleção no Processo Seletivo HBR 02/2025?",
+    "gabarito_referencia": "Inscrições: 04/04/25 a 13/04/25. Prova de Seleção: 10/05/25.",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 (CIIA), informo que **não disponho de dados suficientes** em minha base de conhecimento para confirmar as datas exatas do período de inscrições e da Prova de Seleção. \n\nRecomendo verificar o edital oficial publicado pelo Centro Integrado de Inteligência Artificial (CIIA) ou entrar em contato com a organização do processo seletivo para obter as informações corretas e atualizadas.",
+    "latencia_segundos": 1.057,
+    "tokens_entrada": 112,
+    "tokens_saida": 106,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  },
+  {
+    "data": "2026-11-17 15:22:55",
+    "caso_id": "C06",
+    "configuracao": "config_B_criativa_temp09",
+    "parametros": {
+      "temperature": 0.9,
+      "max_output_tokens": 300,
+      "descricao": "Variação com maior aleatoriedade (temperature=0.9)"
+    },
+    "pergunta": "O regulamento do CIIA exige certificado de proficiência em inglês (TOEFL ou IELTS) para assumir a bolsa?",
+    "gabarito_referencia": "Informação ausente no regulamento (não há exigência de certificação em inglês).",
+    "resposta": "Como assistente informativo do Processo Seletivo HBR 02/2025 do CIIA, informo que não disponho de dados suficientes no momento sobre a exigência específica de certificado de proficiência em inglês (como TOEFL ou IELTS) para a assinatura da bolsa. Recomendo consultar o edital oficial ou o regulamento completo do processo seletivo publicado pelo Centro Integrado de Inteligência Artificial para confirmar essa informação.",
+    "latencia_segundos": 2.076,
+    "tokens_entrada": 105,
+    "tokens_saida": 91,
+    "erro": null,
+    "nota_avaliacao_0_a_3": null,
+    "observacao": ""
+  }
+]

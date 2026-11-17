@@ -49,4 +49,4 @@ Para rodar a aplicação e ver a extração acontecer no terminal, execute:
 python P0/app.py
 ```
 
-- `P1/` : Análise de viabilidade de IA, Memorando Técnico e testes de prompts ([Assista ao vídeo](https://youtu.be/zM32y3Gshu8?si=F6xQAsbKYyfuZ_XL)).
+## 🚀 P1 : Análise de viabilidade de IA, Memorando Técnico e testes de prompts ([Assista ao vídeo](https://youtu.be/zM32y3Gshu8?si=F6xQAsbKYyfuZ_XL)).
